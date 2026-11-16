@@ -1,0 +1,1551 @@
+{
+  "format": "OSTF",
+  "version": "4.3.0",
+  "ppq": 960,
+  "song": {
+    "title": "OSTF 4.3 complete authoring field catalogue",
+    "subtitle": "Illustrative data, not an audio-rendering demonstration",
+    "description": "Systematic witnesses for Core parameters, including inherited optional fields. URI metadata can describe unavailable external resources. No plugin or speech engine is invoked.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "A",
+        "alter": 0
+      },
+      "mode": "minor",
+      "label": "A minor"
+    },
+    "scale": {
+      "id": "song-scale",
+      "tonic": {
+        "step": "A",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "label": "A natural minor"
+    },
+    "genres": [
+      {
+        "id": "genre-pop",
+        "name": "Pop",
+        "externalUri": "urn:ostf:example:genre:pop"
+      }
+    ],
+    "moods": [
+      {
+        "id": "mood-driving",
+        "name": "Driving",
+        "externalUri": "urn:ostf:example:mood:driving"
+      }
+    ],
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "melodyTrackIds": [
+      "lead"
+    ],
+    "alternateTitles": [
+      {
+        "id": "alt-title",
+        "title": "Complete Reference Song"
+      }
+    ],
+    "credits": [
+      {
+        "id": "credit-composer",
+        "contributorId": "contrib-author",
+        "role": "composer",
+        "label": "Composer credit (fictional)"
+      }
+    ],
+    "rights": {
+      "notice": "Fictional example material.",
+      "rightsHolderIds": [
+        "contrib-author"
+      ],
+      "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "primaryLyricDocumentId": "lyr-doc",
+    "primaryMelodyTrackId": "lead",
+    "localizedTitles": {
+      "ja": "OSTF 4.3 全パラメーター作成例",
+      "en": "Complete authoring catalogue"
+    }
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "start": 0,
+        "duration": 7680,
+        "role": "intro",
+        "localizedNames": {
+          "en": "Intro",
+          "ja": "Intro構成"
+        }
+      },
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 7680,
+        "duration": 15360,
+        "role": "verse",
+        "localizedNames": {
+          "en": "Verse",
+          "ja": "Verse構成"
+        }
+      },
+      {
+        "id": "chorus",
+        "name": "Chorus",
+        "start": 23040,
+        "duration": 15360,
+        "role": "chorus",
+        "localizedNames": {
+          "en": "Chorus",
+          "ja": "Chorus構成"
+        }
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "start": 38400,
+        "duration": 15360,
+        "role": "bridge",
+        "localizedNames": {
+          "en": "Solo",
+          "ja": "Solo構成"
+        }
+      },
+      {
+        "id": "outro",
+        "name": "Outro",
+        "start": 53760,
+        "duration": 7680,
+        "role": "outro",
+        "localizedNames": {
+          "en": "Outro",
+          "ja": "Outro構成"
+        }
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 122
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4,
+        "beatGroups": [
+          2,
+          2
+        ]
+      }
+    ],
+    "duration": 61440,
+    "barOrigin": 1,
+    "keyChanges": [
+      {
+        "id": "key-change-1",
+        "at": 53760,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        },
+        "label": "Return to tonic"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "ch1",
+        "start": 0,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "bass": {
+          "step": "A",
+          "alter": 0
+        },
+        "voicing": {
+          "pitches": [
+            45,
+            52,
+            57,
+            60
+          ],
+          "velocities": [
+            90,
+            85,
+            84,
+            86
+          ]
+        }
+      },
+      {
+        "id": "ch2",
+        "start": 3840,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch3",
+        "start": 7680,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch4",
+        "start": 11520,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch5",
+        "start": 15360,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch6",
+        "start": 19200,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch7",
+        "start": 23040,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch8",
+        "start": 26880,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch9",
+        "start": 30720,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch10",
+        "start": 34560,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch11",
+        "start": 38400,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch12",
+        "start": 42240,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch13",
+        "start": 46080,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch14",
+        "start": 49920,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch15",
+        "start": 53760,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch16",
+        "start": 57600,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "id": "scale-lead",
+        "start": 38400,
+        "duration": 15360,
+        "label": "A minor collection",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10
+        ],
+        "targets": [
+          {
+            "type": "section",
+            "id": "solo"
+          },
+          {
+            "type": "track",
+            "id": "lead"
+          },
+          {
+            "type": "clip",
+            "id": "lead-cl"
+          },
+          {
+            "type": "chord",
+            "id": "ch11"
+          },
+          {
+            "type": "note",
+            "id": "g1"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead Guitar",
+      "clips": [
+        {
+          "id": "lead-cl",
+          "start": 38400,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "g1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 96,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 1,
+              "pitchRole": "musical"
+            },
+            {
+              "id": "g2",
+              "start": 960,
+              "duration": 960,
+              "pitch": 72,
+              "velocity": 92,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 1,
+              "pitchRole": "musical"
+            }
+          ],
+          "name": "Lead Guitar phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Lead Guitarフレーズ"
+          },
+          "vocalPerformances": [
+            {
+              "id": "vp-complete",
+              "voiceId": "lyr-voice",
+              "noteIds": [
+                "g1",
+                "g2"
+              ],
+              "phonemeEvents": [
+                {
+                  "id": "ph-event-1",
+                  "unitId": "lyr-u1",
+                  "noteId": "g1",
+                  "alphabet": "other",
+                  "namespace": "com.example.phonemes",
+                  "symbol": "OPEN",
+                  "start": 0,
+                  "duration": 960,
+                  "order": 0
+                }
+              ],
+              "pitchCurves": [
+                {
+                  "id": "pitch-curve-1",
+                  "targetNoteId": "g1",
+                  "unit": "cents",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0
+                    },
+                    {
+                      "at": 480,
+                      "value": 12
+                    }
+                  ]
+                }
+              ],
+              "expressionCurves": [
+                {
+                  "id": "expression-1",
+                  "parameter": "dynamics",
+                  "targetNoteId": "g1",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.5
+                    },
+                    {
+                      "at": 480,
+                      "value": 0.6
+                    }
+                  ]
+                }
+              ],
+              "techniques": [
+                {
+                  "id": "technique-1",
+                  "start": 0,
+                  "duration": 960,
+                  "kind": "legato",
+                  "intensity": 0.5,
+                  "targetNoteId": "g1"
+                }
+              ],
+              "breathEvents": [
+                {
+                  "id": "breath-1",
+                  "start": 1920,
+                  "duration": 240,
+                  "kind": "inhale",
+                  "intensity": 0.3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "role": "accompaniment",
+      "trackType": "melodic",
+      "instrument": {
+        "name": "Electric Guitar",
+        "family": "guitar",
+        "playablePitchRange": {
+          "lowPitch": 40,
+          "highPitch": 88
+        },
+        "localizedNames": {
+          "ja": "Lead Guitar音源"
+        }
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 1
+      },
+      "directions": [
+        {
+          "id": "lead-role",
+          "start": 38400,
+          "duration": 15360,
+          "type": "playingRole",
+          "parameters": {
+            "role": "solo"
+          },
+          "label": "playingRole example",
+          "instruction": "Descriptive musical intent; never an executable command."
+        },
+        {
+          "id": "lead-scale",
+          "start": 38400,
+          "duration": 15360,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "explicitScale",
+              "scale": {
+                "tonic": {
+                  "step": "A",
+                  "alter": 0
+                },
+                "intervals": [
+                  0,
+                  3,
+                  5,
+                  7,
+                  10
+                ],
+                "label": "A minor pentatonic"
+              }
+            },
+            "adherence": "preferred"
+          },
+          "label": "improvisation example",
+          "instruction": "Descriptive musical intent; never an executable command."
+        },
+        {
+          "id": "lead-vendor-cue",
+          "at": 46080,
+          "type": "vendor",
+          "parameters": {
+            "namespace": "com.example.performance.cue",
+            "name": "accentCue",
+            "version": "1.0",
+            "data": {
+              "level": "medium"
+            }
+          },
+          "instruction": "Mark the phrase peak here.",
+          "label": "vendor example"
+        },
+        {
+          "id": "dir-song-scale",
+          "start": 0,
+          "duration": 7680,
+          "type": "improvisation",
+          "label": "Song scale",
+          "instruction": "Use the declared song scale.",
+          "parameters": {
+            "pitchSource": {
+              "type": "songScale"
+            },
+            "adherence": "preferred"
+          }
+        },
+        {
+          "id": "dir-harmony-scale",
+          "start": 38400,
+          "duration": 15360,
+          "type": "improvisation",
+          "label": "Harmony scale",
+          "instruction": "Use this explicit scale-context reference.",
+          "parameters": {
+            "pitchSource": {
+              "type": "harmonyScales",
+              "scaleIds": [
+                "scale-lead"
+              ]
+            },
+            "adherence": "preferred"
+          }
+        },
+        {
+          "id": "dir-pitch-range",
+          "start": 38400,
+          "duration": 15360,
+          "type": "pitchRange",
+          "label": "Comfortable register",
+          "instruction": "Preferred register, not a note rewrite.",
+          "parameters": {
+            "lowPitch": 48,
+            "highPitch": 84,
+            "constraint": "preferred"
+          }
+        },
+        {
+          "id": "dir-vendor-range",
+          "start": 0,
+          "duration": 7680,
+          "type": "vendor",
+          "label": "Retain unknown data",
+          "instruction": "Preserve, do not execute.",
+          "parameters": {
+            "namespace": "com.example.ostf",
+            "name": "stageDescription",
+            "version": "1.0",
+            "data": {
+              "displayText": "Fictional stage cue"
+            }
+          }
+        },
+        {
+          "id": "dir-phrasing",
+          "start": 38400,
+          "duration": 15360,
+          "type": "phrasing",
+          "label": "Motivic phrase",
+          "instruction": "Intent is subordinate to saved concrete notes.",
+          "parameters": {
+            "phraseLengthTicks": {
+              "min": 960,
+              "max": 3840
+            },
+            "onsetGroupsPerQuarter": {
+              "min": 1,
+              "max": 4
+            },
+            "development": "motivicVariation",
+            "contour": "arch",
+            "energyShape": "rising",
+            "motifRef": "tpl-solo",
+            "adherence": "preferred"
+          }
+        },
+        {
+          "id": "dir-vocal-freedom",
+          "start": 38400,
+          "duration": 1920,
+          "type": "vocalFreedom",
+          "label": "Two lyric alternatives",
+          "instruction": "Choose explicitly; do not replace authored notes on import.",
+          "parameters": {
+            "voiceId": "lyr-voice",
+            "textPolicy": "alternatives",
+            "melodyPolicy": "ornamentable",
+            "vocalizationKind": "lexical",
+            "candidatePhraseSets": [
+              {
+                "phraseIds": [
+                  "lyr-ph"
+                ]
+              },
+              {
+                "phraseIds": [
+                  "lyr-ph-alt"
+                ]
+              }
+            ],
+            "adherence": "preferred"
+          }
+        }
+      ],
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Lead Guitarトラック"
+      },
+      "preferredView": "pianoRoll",
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:lead"
+      },
+      "performanceRequirements": {
+        "requiredPolyphony": 2,
+        "requiredPitchRange": {
+          "lowPitch": 48,
+          "highPitch": 84
+        },
+        "requiredArticulations": [
+          "legato",
+          "staccato"
+        ],
+        "peakOnsetGroupsPerQuarter": 4
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "clips": [
+        {
+          "id": "bass-cl",
+          "start": 0,
+          "duration": 61440,
+          "notes": [
+            {
+              "id": "b1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 45,
+              "velocity": 95,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 2,
+              "pitchRole": "musical"
+            }
+          ],
+          "name": "Bass phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Bassフレーズ"
+          }
+        }
+      ],
+      "role": "bassline",
+      "trackType": "melodic",
+      "instrument": {
+        "name": "5-string Bass",
+        "family": "bass",
+        "playablePitchRange": {
+          "lowPitch": 23,
+          "highPitch": 67
+        },
+        "localizedNames": {
+          "ja": "Bass音源"
+        }
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 2
+      },
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Bassトラック"
+      },
+      "preferredView": "pianoRoll",
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:bass"
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "clips": [
+        {
+          "id": "dr-cl",
+          "start": 0,
+          "duration": 61440,
+          "notes": [
+            {
+              "id": "dk",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 115,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 10
+            },
+            {
+              "id": "ds",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "snare",
+              "velocity": 108,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 10
+            }
+          ],
+          "name": "Drums phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Drumsフレーズ"
+          }
+        }
+      ],
+      "role": "drums",
+      "trackType": "drum",
+      "drumKitId": "kit",
+      "preferredView": "drumGrid",
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 10
+      },
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Drumsトラック"
+      },
+      "instrument": {
+        "name": "Drums",
+        "family": "percussion",
+        "localizedNames": {
+          "ja": "Drums音源"
+        }
+      },
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:drums"
+      }
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Kick",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      },
+      "role": "kick",
+      "midiNote": 36,
+      "localizedNames": {
+        "ja": "Kick"
+      }
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      },
+      "role": "snare",
+      "midiNote": 38,
+      "localizedNames": {
+        "ja": "Snare"
+      }
+    },
+    {
+      "id": "hat",
+      "name": "Closed Hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 42
+      },
+      "role": "closed hat",
+      "midiNote": 42,
+      "localizedNames": {
+        "ja": "Closed Hat"
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "lyr-doc",
+        "title": "Lead lyric",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "lyr-ph",
+        "documentId": "lyr-doc",
+        "text": "Open the light",
+        "start": 38400,
+        "duration": 1920,
+        "pronunciation": "oʊpən ðə laɪt"
+      },
+      {
+        "id": "lyr-ph-alt",
+        "documentId": "lyr-doc",
+        "text": "Follow the light",
+        "pronunciation": "fɑloʊ ðə laɪt",
+        "start": 38400,
+        "duration": 1920
+      }
+    ],
+    "units": [
+      {
+        "id": "lyr-u1",
+        "phraseId": "lyr-ph",
+        "text": "Open",
+        "pronunciation": "oʊpən",
+        "start": 38400,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "en",
+            "symbols": [
+              "oʊ",
+              "p",
+              "ə",
+              "n"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "language": "en",
+            "namespace": "com.example.phonemes",
+            "symbols": [
+              "OPEN"
+            ],
+            "preferred": false
+          }
+        ]
+      },
+      {
+        "id": "lyr-u2",
+        "phraseId": "lyr-ph",
+        "text": "the light",
+        "pronunciation": "ðə laɪt",
+        "start": 39360,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "en",
+            "symbols": [
+              "ð",
+              "ə",
+              "l",
+              "aɪ",
+              "t"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "language": "en",
+            "namespace": "com.example.phonemes",
+            "symbols": [
+              "LIGHT"
+            ],
+            "preferred": false
+          }
+        ]
+      }
+    ],
+    "alignments": [
+      {
+        "id": "lyr-al",
+        "unitIds": [
+          "lyr-u1",
+          "lyr-u2"
+        ],
+        "noteIds": [
+          "g1",
+          "g2"
+        ],
+        "voiceId": "lyr-voice"
+      }
+    ],
+    "voices": [
+      {
+        "id": "lyr-voice",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "lead",
+        "documentId": "lyr-doc",
+        "vocalProfile": {
+          "language": "en",
+          "deliveryMode": "sing",
+          "voiceDescription": "Neutral fictional test voice, no voicebank reference"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "res-notes",
+      "kind": "text",
+      "uri": "notes/reference.txt",
+      "name": "Reference notes",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "id": "res-source-16",
+      "kind": "other",
+      "uri": "16-inherited-comprehensive-core.ostf",
+      "name": "Source example",
+      "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d"
+    }
+  ],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus-main",
+        "name": "Main MIDI"
+      }
+    ]
+  },
+  "drumKits": [
+    {
+      "id": "kit",
+      "name": "Pop Kit",
+      "soundSlotIds": [
+        "kick",
+        "snare",
+        "hat"
+      ],
+      "localizedNames": {
+        "ja": "ポップキット"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "id": "contrib-author",
+      "name": "OSTF Example Author",
+      "kind": "person",
+      "localizedNames": {
+        "ja": "架空の作曲者"
+      }
+    }
+  ],
+  "document": {
+    "id": "doc-complete-authoring-43",
+    "revisionId": "r1",
+    "createdBy": {
+      "name": "OSTF Release Examples",
+      "version": "4.3.0"
+    },
+    "parents": [
+      {
+        "documentId": "doc-comprehensive",
+        "revisionId": "rev-1",
+        "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d"
+      }
+    ],
+    "modifiedBy": {
+      "name": "OSTF release package editor",
+      "version": "4.3.0"
+    }
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "prov-create",
+        "action": "create",
+        "description": "Created as a comprehensive 4.1 example.",
+        "tool": {
+          "name": "OSTF Release Examples",
+          "version": "4.1.0"
+        }
+      },
+      {
+        "id": "prov-transpose-demo",
+        "action": "transpose",
+        "description": "Illustration of a zero-semitone transform; not an audit of a third-party tool.",
+        "tool": {
+          "name": "OSTF examples",
+          "version": "4.3.0"
+        },
+        "sources": [
+          {
+            "format": "OSTF",
+            "version": "4.3.0",
+            "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d",
+            "uri": "16-inherited-comprehensive-core.ostf",
+            "documentId": "doc-comprehensive",
+            "revisionId": "rev-1",
+            "resourceId": "res-source-16"
+          }
+        ],
+        "semitones": 0,
+        "beforeKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        },
+        "afterKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        }
+      }
+    ]
+  },
+  "relativePhrases": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "note",
+          "id": "g1"
+        },
+        {
+          "type": "chord",
+          "id": "ch11"
+        }
+      ]
+    },
+    "assignments": [
+      {
+        "noteId": "g1",
+        "basis": "chordTone",
+        "contextId": "ch11",
+        "anchorPitch": 69,
+        "index": 1,
+        "chromaticOffset": 0
+      },
+      {
+        "noteId": "g2",
+        "basis": "scaleDegree",
+        "contextId": "scale-lead",
+        "anchorPitch": 69,
+        "index": 3,
+        "chromaticOffset": 0
+      }
+    ]
+  },
+  "generation": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "track",
+          "id": "lead"
+        }
+      ]
+    },
+    "processes": [
+      {
+        "id": "gen-lead",
+        "generator": {
+          "id": "com.example.generator",
+          "version": "1.0"
+        },
+        "inputs": [
+          {
+            "role": "harmony",
+            "ref": {
+              "type": "chord",
+              "id": "ch11"
+            },
+            "readRange": {
+              "start": 38400,
+              "duration": 15360
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "g1"
+          },
+          {
+            "type": "note",
+            "id": "g2"
+          }
+        ],
+        "protectedNoteIds": [],
+        "targetRange": {
+          "start": 38400,
+          "duration": 15360
+        },
+        "intent": {
+          "genreNames": [
+            "Pop"
+          ],
+          "moodNames": [
+            "Driving"
+          ],
+          "prompt": "Melodic sparse solo.",
+          "seed": "ostf-reference-43",
+          "groove": {
+            "name": "Unequal eighths",
+            "unitTicks": 480,
+            "longWeight": 2,
+            "shortWeight": 1
+          }
+        }
+      }
+    ]
+  },
+  "presentation": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "section",
+          "id": "solo"
+        }
+      ]
+    },
+    "roleDefinitions": [
+      {
+        "id": "role-solo-section",
+        "name": "Solo Section",
+        "baseRole": "bridge"
+      }
+    ],
+    "sectionRoleAssignments": {
+      "solo": "role-solo-section"
+    },
+    "appearance": {
+      "roleColors": {
+        "bridge": "#6644AA"
+      },
+      "customRoleColors": {
+        "role-solo-section": "#8855CC"
+      },
+      "objectColors": [
+        {
+          "target": {
+            "type": "track",
+            "id": "lead"
+          },
+          "color": "#CC7722"
+        }
+      ]
+    }
+  },
+  "phraseLibrary": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "clip",
+          "id": "lead-cl"
+        }
+      ]
+    },
+    "templates": [
+      {
+        "id": "tpl-solo",
+        "name": "Solo Seed",
+        "duration": 1920,
+        "notes": [
+          {
+            "id": "tpl-n1",
+            "start": 0,
+            "duration": 960,
+            "pitch": 69,
+            "velocity": 96,
+            "enabled": true,
+            "releaseVelocity": 48,
+            "probability": 1,
+            "velocityDeviation": 0,
+            "pitchRole": "musical"
+          },
+          {
+            "id": "tpl-n2",
+            "start": 960,
+            "duration": 960,
+            "pitch": 72,
+            "velocity": 92,
+            "enabled": true,
+            "releaseVelocity": 48,
+            "probability": 1,
+            "velocityDeviation": 0,
+            "pitchRole": "musical"
+          }
+        ]
+      },
+      {
+        "id": "tpl-drum",
+        "name": "Percussion seed",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "tpl-drum-n1",
+            "start": 0,
+            "duration": 120,
+            "soundSlotId": "kick",
+            "velocity": 100,
+            "enabled": true,
+            "releaseVelocity": 0,
+            "probability": 1,
+            "velocityDeviation": 0
+          }
+        ]
+      }
+    ],
+    "instances": [
+      {
+        "id": "inst-solo",
+        "templateId": "tpl-solo",
+        "clipId": "lead-cl",
+        "repeatCount": 1,
+        "transpose": 0,
+        "noteMap": [
+          {
+            "templateNoteId": "tpl-n1",
+            "repeatIndex": 0,
+            "noteId": "g1"
+          },
+          {
+            "templateNoteId": "tpl-n2",
+            "repeatIndex": 0,
+            "noteId": "g2"
+          }
+        ],
+        "velocityMode": "linked",
+        "noteStateMode": "independent"
+      }
+    ]
+  },
+  "clipChoices": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "clip",
+          "id": "lead-cl"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "choice-lead",
+        "name": "Lead take",
+        "candidates": [
+          {
+            "id": "candidate-main",
+            "name": "Main",
+            "clipIds": [
+              "lead-cl"
+            ]
+          }
+        ],
+        "selectedCandidateId": "candidate-main"
+      }
+    ]
+  },
+  "localization": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "track",
+          "id": "lead"
+        }
+      ]
+    },
+    "entries": [
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "title",
+        "values": {
+          "ja": "OSTF 4.1 総合リファレンス曲"
+        }
+      },
+      {
+        "target": {
+          "kind": "track",
+          "id": "lead"
+        },
+        "field": "name",
+        "values": {
+          "ja": "リードギター"
+        }
+      }
+    ]
+  },
+  "performancePlans": [
+    {
+      "id": "plan-complete",
+      "name": "Finite complete plan",
+      "mode": "orderedFinite",
+      "defaultRealization": "fixed",
+      "visits": [
+        {
+          "id": "visit-complete",
+          "ordinal": 0,
+          "label": "Solo excerpt",
+          "sourceSectionIds": [
+            "solo"
+          ],
+          "parts": [
+            {
+              "trackId": "lead",
+              "role": "solo",
+              "realization": "fixed",
+              "replacesDirectionIds": [
+                "lead-role"
+              ]
+            },
+            {
+              "trackId": "bass",
+              "realization": "fixed"
+            },
+            {
+              "trackId": "drums",
+              "realization": "fixed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ensembleInteractions": [
+    {
+      "id": "interaction-complete",
+      "actorTrackId": "lead",
+      "partnerTrackId": "bass",
+      "relation": "leaveSpaceFor",
+      "start": 38400,
+      "duration": 15360,
+      "scope": {
+        "performancePlanId": "plan-complete",
+        "visitId": "visit-complete"
+      },
+      "responseWindowTicks": 960,
+      "adherence": "preferred"
+    }
+  ]
+}

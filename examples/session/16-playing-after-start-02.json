@@ -1,0 +1,57 @@
+{
+  "profile": "OSTF-Distributed-Session-0.2",
+  "recordType": "snapshot",
+  "sessionId": "demo-remote-jam",
+  "documentId": "doc-remote-aaba-43",
+  "revisionId": "r1",
+  "performancePlanId": "form",
+  "scoreSha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+  "stateRevision": 1,
+  "authorityParticipantId": "coordinator",
+  "participants": [
+    {
+      "participantId": "coordinator",
+      "kind": "softwareAgent",
+      "assignedTrackIds": [],
+      "supportedFeatures": [
+        "OSTF-Distributed-Session-0.2"
+      ]
+    },
+    {
+      "participantId": "remote-bass",
+      "kind": "physicalRobot",
+      "assignedTrackIds": [
+        "bass"
+      ],
+      "supportedFeatures": [
+        "midi1Notes"
+      ],
+      "capabilities": {
+        "noteScheduling": true
+      }
+    },
+    {
+      "participantId": "remote-piano",
+      "kind": "human",
+      "assignedTrackIds": [
+        "piano"
+      ]
+    }
+  ],
+  "committedPhrases": [],
+  "sessionStatus": "playing",
+  "position": {
+    "performancePlanId": "form",
+    "visitId": "head",
+    "sourceTick": 0,
+    "performanceTick": 0,
+    "clockDomainId": "clock-musical-01",
+    "epochUtc": "2026-11-13T12:00:00Z",
+    "uncertaintyMs": 5,
+    "tempoBpm": 120
+  },
+  "commitmentWindow": {
+    "startPerformanceTick": 0,
+    "endPerformanceTick": 3840
+  }
+}

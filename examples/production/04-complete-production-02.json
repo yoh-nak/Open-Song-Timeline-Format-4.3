@@ -1,0 +1,583 @@
+{
+  "profile": "OSTF-Production-Session",
+  "profileVersion": "0.2.0",
+  "score": {
+    "formatVersion": "4.3.0",
+    "sha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+    "sourceUri": "../22-pinned-session-aaba.ostf",
+    "documentId": "doc-remote-aaba-43",
+    "revisionId": "r1"
+  },
+  "channels": [
+    {
+      "id": "piano-channel",
+      "kind": "track",
+      "name": "Piano",
+      "trackId": "piano",
+      "audioChannels": 2,
+      "gainDb": -3.0,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [
+        "piano-instrument",
+        "piano-eq"
+      ],
+      "sends": [
+        {
+          "id": "reverb-send",
+          "targetChannelId": "reverb",
+          "gainDb": -12,
+          "preFader": false,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "sax-channel",
+      "kind": "track",
+      "name": "Sax",
+      "trackId": "sax",
+      "audioChannels": 2,
+      "gainDb": -2.5,
+      "pan": -0.2,
+      "mute": false,
+      "solo": true,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [],
+      "sends": []
+    },
+    {
+      "id": "bass-channel",
+      "kind": "track",
+      "name": "Bass",
+      "trackId": "bass",
+      "audioChannels": 1,
+      "gainDb": -4,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [
+        "bass-comp"
+      ],
+      "sends": []
+    },
+    {
+      "id": "drums-channel",
+      "kind": "track",
+      "name": "Drums",
+      "trackId": "drums",
+      "audioChannels": 2,
+      "gainDb": -6,
+      "pan": 0.08,
+      "mute": false,
+      "solo": false,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [],
+      "sends": []
+    },
+    {
+      "id": "room-audio",
+      "kind": "audioTrack",
+      "name": "Room Mic Recording (production only)",
+      "audioChannels": 2,
+      "gainDb": -8.0,
+      "pan": 0.0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [],
+      "sends": []
+    },
+    {
+      "id": "reverb",
+      "kind": "bus",
+      "name": "Reverb Aux",
+      "audioChannels": 2,
+      "gainDb": -7,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": true,
+      "outputChannelId": "main",
+      "deviceIds": [
+        "reverb-plugin"
+      ],
+      "sends": []
+    },
+    {
+      "id": "main",
+      "kind": "master",
+      "name": "Main Stereo",
+      "audioChannels": 2,
+      "gainDb": 0,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": true,
+      "deviceIds": [
+        "limiter",
+        "catalogue-device-vst2",
+        "catalogue-device-au",
+        "catalogue-device-aax",
+        "catalogue-device-hostNative",
+        "catalogue-device-other"
+      ],
+      "sends": []
+    }
+  ],
+  "devices": [
+    {
+      "id": "piano-instrument",
+      "role": "instrument",
+      "plugin": {
+        "format": "vst3",
+        "pluginId": "COM.EXAMPLE.DEMO.PIANO",
+        "name": "Illustrative Piano Instrument",
+        "vendor": "example.invalid",
+        "version": "1.0.0"
+      },
+      "enabled": true,
+      "bypass": false,
+      "onUnavailable": "preserveAndSilence",
+      "stateAssetId": "piano-state"
+    },
+    {
+      "id": "piano-eq",
+      "role": "effect",
+      "plugin": {
+        "format": "builtin",
+        "pluginId": "org.example.eq3",
+        "name": "Example EQ",
+        "version": "1.0.0"
+      },
+      "enabled": true,
+      "bypass": false,
+      "onUnavailable": "preserveAndBypass"
+    },
+    {
+      "id": "reverb-plugin",
+      "role": "effect",
+      "plugin": {
+        "format": "clap",
+        "pluginId": "org.example.reverb",
+        "name": "Example Reverb",
+        "version": "1.0.0"
+      },
+      "enabled": true,
+      "bypass": false,
+      "onUnavailable": "preserveAndBypass"
+    },
+    {
+      "id": "limiter",
+      "role": "effect",
+      "plugin": {
+        "format": "builtin",
+        "pluginId": "org.example.limiter",
+        "name": "Example Limiter",
+        "version": "1.0.0"
+      },
+      "enabled": true,
+      "bypass": false
+    },
+    {
+      "id": "bass-comp",
+      "role": "effect",
+      "plugin": {
+        "format": "builtin",
+        "pluginId": "org.example.demo.sidechain-compressor",
+        "name": "Illustrative Sidechain Compressor",
+        "namespace": "org.example.demo",
+        "version": "1.0.0"
+      },
+      "enabled": true,
+      "bypass": false,
+      "onUnavailable": "reportAndPreserve"
+    },
+    {
+      "id": "catalogue-device-vst2",
+      "role": "utility",
+      "plugin": {
+        "format": "vst2",
+        "pluginId": "example.vst2",
+        "name": "Illustrative vst2",
+        "vendor": "example.invalid",
+        "version": "1.0.0",
+        "namespace": "com.example.catalogue"
+      },
+      "enabled": false,
+      "bypass": true,
+      "onUnavailable": "reportAndPreserve"
+    },
+    {
+      "id": "catalogue-device-au",
+      "role": "utility",
+      "plugin": {
+        "format": "au",
+        "pluginId": "example.au",
+        "name": "Illustrative au",
+        "vendor": "example.invalid",
+        "version": "1.0.0",
+        "namespace": "com.example.catalogue"
+      },
+      "enabled": false,
+      "bypass": true,
+      "onUnavailable": "reportAndPreserve"
+    },
+    {
+      "id": "catalogue-device-aax",
+      "role": "utility",
+      "plugin": {
+        "format": "aax",
+        "pluginId": "example.aax",
+        "name": "Illustrative aax",
+        "vendor": "example.invalid",
+        "version": "1.0.0",
+        "namespace": "com.example.catalogue"
+      },
+      "enabled": false,
+      "bypass": true,
+      "onUnavailable": "reportAndPreserve"
+    },
+    {
+      "id": "catalogue-device-hostNative",
+      "role": "utility",
+      "plugin": {
+        "format": "hostNative",
+        "pluginId": "example.hostNative",
+        "name": "Illustrative hostNative",
+        "vendor": "example.invalid",
+        "version": "1.0.0",
+        "namespace": "com.example.catalogue"
+      },
+      "enabled": false,
+      "bypass": true,
+      "onUnavailable": "reportAndPreserve"
+    },
+    {
+      "id": "catalogue-device-other",
+      "role": "utility",
+      "plugin": {
+        "format": "other",
+        "pluginId": "example.other",
+        "name": "Illustrative other",
+        "vendor": "example.invalid",
+        "version": "1.0.0",
+        "namespace": "com.example.catalogue"
+      },
+      "enabled": false,
+      "bypass": true,
+      "onUnavailable": "reportAndPreserve"
+    }
+  ],
+  "assets": [
+    {
+      "id": "piano-state",
+      "purpose": "pluginState",
+      "uri": "assets/example-plugin-state.bin",
+      "sha256": "c83d11114b7ec2f5383fdc2b9520151952522a22c65f765d1be0c45fffa275d2",
+      "mediaType": "application/octet-stream",
+      "byteLength": 47
+    },
+    {
+      "id": "room-take",
+      "purpose": "audioSource",
+      "uri": "assets/example-audio.wav",
+      "sha256": "110cb40717a57ade4a8e28e5a448596973a83efe32937dbdafb7683dfa2bec39",
+      "byteLength": 44144,
+      "mediaType": "audio/wav",
+      "sampleRateHz": 44100,
+      "frameCount": 11025,
+      "audioChannels": 2
+    },
+    {
+      "id": "rendered-demo",
+      "purpose": "renderedAudio",
+      "uri": "assets/example-audio.wav",
+      "sha256": "110cb40717a57ade4a8e28e5a448596973a83efe32937dbdafb7683dfa2bec39",
+      "byteLength": 44144,
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "opaque-other",
+      "purpose": "other",
+      "uri": "assets/example-plugin-state.bin",
+      "sha256": "c83d11114b7ec2f5383fdc2b9520151952522a22c65f765d1be0c45fffa275d2",
+      "mediaType": "application/octet-stream",
+      "byteLength": 47
+    },
+    {
+      "id": "mono-silence",
+      "purpose": "audioSource",
+      "uri": "assets/mono-silence.wav",
+      "sha256": "c0ef0f9f67f2ebed85190169cebe1071babbd5df7c476693a93bc1409906648e",
+      "mediaType": "audio/wav",
+      "byteLength": 22094,
+      "sampleRateHz": 44100,
+      "frameCount": 11025,
+      "audioChannels": 1
+    }
+  ],
+  "automation": [
+    {
+      "id": "piano-gain-automation",
+      "target": {
+        "kind": "channel",
+        "channelId": "piano-channel",
+        "parameter": "gainDb"
+      },
+      "valueType": "number",
+      "interpolation": "linear",
+      "points": [
+        {
+          "atTick": 0,
+          "value": -4
+        },
+        {
+          "atTick": 30720,
+          "value": -3
+        }
+      ]
+    },
+    {
+      "id": "sax-mute-automation",
+      "target": {
+        "kind": "channel",
+        "channelId": "sax-channel",
+        "parameter": "mute"
+      },
+      "valueType": "boolean",
+      "interpolation": "step",
+      "points": [
+        {
+          "atTick": 0,
+          "value": false
+        },
+        {
+          "atTick": 61440,
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "reverb-mix-automation",
+      "target": {
+        "kind": "device",
+        "deviceId": "reverb-plugin",
+        "parameterId": "wet"
+      },
+      "valueType": "number",
+      "interpolation": "linear",
+      "points": [
+        {
+          "atTick": 0,
+          "value": 0.2
+        },
+        {
+          "atTick": 30720,
+          "value": 0.4
+        }
+      ]
+    },
+    {
+      "id": "reverb-send-gain-automation",
+      "target": {
+        "kind": "send",
+        "sendId": "reverb-send",
+        "parameter": "gainDb"
+      },
+      "valueType": "number",
+      "interpolation": "linear",
+      "points": [
+        {
+          "atTick": 0,
+          "value": -20.0
+        },
+        {
+          "atTick": 7680,
+          "value": -12.0
+        }
+      ]
+    },
+    {
+      "id": "reverb-send-on-automation",
+      "target": {
+        "kind": "send",
+        "sendId": "reverb-send",
+        "parameter": "enabled"
+      },
+      "valueType": "boolean",
+      "interpolation": "step",
+      "points": [
+        {
+          "atTick": 0,
+          "value": true
+        },
+        {
+          "atTick": 7680,
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "region-gain-automation",
+      "target": {
+        "kind": "audioRegion",
+        "audioRegionId": "room-clip-fit",
+        "parameter": "gainDb"
+      },
+      "valueType": "number",
+      "interpolation": "linear",
+      "points": [
+        {
+          "atTick": 1920,
+          "value": -10.0
+        },
+        {
+          "atTick": 2880,
+          "value": -4.0
+        }
+      ]
+    },
+    {
+      "id": "region-mute-automation",
+      "target": {
+        "kind": "audioRegion",
+        "audioRegionId": "room-clip-native",
+        "parameter": "mute"
+      },
+      "valueType": "boolean",
+      "interpolation": "step",
+      "points": [
+        {
+          "atTick": 0,
+          "value": false
+        },
+        {
+          "atTick": 480,
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "eq-bypass-automation",
+      "target": {
+        "kind": "deviceControl",
+        "deviceId": "piano-eq",
+        "parameter": "bypass"
+      },
+      "valueType": "boolean",
+      "interpolation": "step",
+      "points": [
+        {
+          "atTick": 0,
+          "value": false
+        },
+        {
+          "atTick": 7680,
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "eq-enabled-automation",
+      "target": {
+        "kind": "deviceControl",
+        "deviceId": "piano-eq",
+        "parameter": "enabled"
+      },
+      "valueType": "boolean",
+      "interpolation": "step",
+      "points": [
+        {
+          "atTick": 0,
+          "value": true
+        },
+        {
+          "atTick": 15360,
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "pan-catalogue",
+      "target": {
+        "kind": "channel",
+        "channelId": "piano-channel",
+        "parameter": "pan"
+      },
+      "valueType": "number",
+      "interpolation": "linear",
+      "points": [
+        {
+          "atTick": 0,
+          "value": -0.2
+        },
+        {
+          "atTick": 960,
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "notes": "Complete Production field catalogue. All plugin identities are illustrative and unavailable. Preserve descriptors; do not execute arbitrary identifiers.",
+  "audioRegions": [
+    {
+      "id": "room-clip-native",
+      "channelId": "room-audio",
+      "sourceAssetId": "room-take",
+      "startTick": 0,
+      "durationTicks": 960,
+      "sourceStartFrame": 0,
+      "sourceFrameCount": 11025,
+      "playbackMode": "native",
+      "gainDb": -2.0,
+      "mute": false,
+      "fadeInTicks": 120,
+      "fadeOutTicks": 120
+    },
+    {
+      "id": "room-clip-fit",
+      "channelId": "room-audio",
+      "sourceAssetId": "room-take",
+      "startTick": 1920,
+      "durationTicks": 1920,
+      "sourceStartFrame": 0,
+      "sourceFrameCount": 11025,
+      "playbackMode": "fit",
+      "pitchPolicy": "followRate",
+      "gainDb": -4.0,
+      "mute": false,
+      "fadeInTicks": 240,
+      "fadeOutTicks": 240
+    }
+  ],
+  "sidechainConnections": [
+    {
+      "id": "drums-to-bass-comp",
+      "sourceChannelId": "drums-channel",
+      "targetDeviceId": "bass-comp",
+      "targetPortId": "key",
+      "tapPoint": "postFader",
+      "followMute": false,
+      "gainDb": 0.0,
+      "enabled": true
+    }
+  ],
+  "hostExtensions": [
+    {
+      "namespace": "com.example.ostf.host",
+      "version": "1.0.0",
+      "data": {
+        "panelLayout": "illustrative"
+      }
+    }
+  ]
+}

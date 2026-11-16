@@ -1,0 +1,58 @@
+{
+  "profile": "OSTF-Production-Session",
+  "profileVersion": "0.2.0",
+  "score": {
+    "formatVersion": "4.3.0",
+    "sha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+    "sourceUri": "../22-pinned-session-aaba.ostf",
+    "documentId": "doc-remote-aaba-43",
+    "revisionId": "r1"
+  },
+  "channels": [
+    {
+      "id": "lead",
+      "kind": "track",
+      "trackId": "sax",
+      "audioChannels": 2,
+      "gainDb": -2,
+      "pan": 0,
+      "mute": false,
+      "solo": true,
+      "soloSafe": false,
+      "outputChannelId": "main",
+      "deviceIds": [
+        "unavailable-synth"
+      ],
+      "sends": []
+    },
+    {
+      "id": "main",
+      "kind": "master",
+      "audioChannels": 2,
+      "gainDb": 0,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "soloSafe": true,
+      "deviceIds": [],
+      "sends": []
+    }
+  ],
+  "devices": [
+    {
+      "id": "unavailable-synth",
+      "role": "instrument",
+      "plugin": {
+        "format": "clap",
+        "pluginId": "org.example.notinstalled",
+        "name": "Missing Instrument"
+      },
+      "enabled": true,
+      "bypass": false,
+      "onUnavailable": "preserveAndSilence"
+    }
+  ],
+  "assets": [],
+  "automation": [],
+  "notes": "Illustrative profile: plugin identifiers are fictitious; BIN is synthetic invalid plugin-state data and must not be loaded as a preset. WAV is a newly synthesized 440 Hz test tone. No restoration or audio equivalence is claimed."
+}

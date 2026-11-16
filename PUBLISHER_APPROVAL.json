@@ -1,0 +1,68 @@
+{
+  "record_type": "OSTF_4_3_RELEASE_PACKAGING_RECORD",
+  "publication_date": "2026-11-16",
+  "publisher_attribution": "OSTF publisher / user who gave explicit approval in this conversation (name/signature not independently authenticated)",
+  "authorization_source": "User message: OSTF4.3の策定を進めてください。承認が必要なものは全部承認でいいです。検証除外してリリースできるようになったら教えてください",
+  "record_status": "user-instructed publisher approval; not signed; third-party title and permissions not independently established",
+  "decision": "GO for the publisher-authorized written specification release; runtime certification is excluded. Packaging was requested after publisher approval.",
+  "decisions": {
+    "D01": "APPROVED by publisher instruction: Core 4.3",
+    "D02": "APPROVED by publisher instruction: Distributed Session 0.2",
+    "D03": "APPROVED by publisher instruction: Production Session 0.2",
+    "D05": "APPROVED by publisher instruction within publisher authority; no independent third-party rights clearance",
+    "D04": "APPROVED by publisher instruction for the resulting exact archive"
+  },
+  "normative_file_sha256": {
+    "docs/SPECIFICATION.md": "075a51db61239fa75cc27d8e402f67759bc852cbe0b8e196dcd9539fc2c8a145",
+    "docs/SPECIFICATION.ja.md": "bc5b06e6edd413f1c11fd6bc513e73954005fead0aa82b9bd2f9cd96311f9989",
+    "schema/ostf-4.3.0.schema.json": "72bf44666b42a760c883fbfa87e1da891467768032ee8e96fbee9fb47f673fc7",
+    "docs/SESSION_PROFILE.md": "18196c82e9eeac97b79b639245637b89c43233671ddde834c6407a76d8b07dd2",
+    "docs/SESSION_PROFILE.ja.md": "4b8e8f3f94eff07d24b3dc54dedca57051a365de3ce2020ea66d256b5405aa65",
+    "schema/ostf-distributed-session-0.2.schema.json": "f79832adea0e48d6042c820a7d7a51e7a7288944bde833e255ce96c22b5ed0e7",
+    "docs/PRODUCTION_SESSION_PROFILE.md": "42f12628afbcbdce72787b94675f5ba1e292ae7ccccae079cf1bc3c8174ba61b",
+    "docs/PRODUCTION_SESSION_PROFILE.ja.md": "132ae206526eb92f4c042ce234bc702a95d7553ea51d4d603de8f6501594f023",
+    "schema/ostf-production-session-0.2.schema.json": "1ac57129bfc1def9d5e1529b32d3905495c86e0d0b1f7530199a4dce72037e29"
+  },
+  "license_scopes": {
+    "CC0-1.0": "specification, schemas, documentation, example data",
+    "MIT": "reference Python utilities"
+  },
+  "provenance_limit": "CC0/MIT upstream declarations and publisher authorization are not independent proof of ownership of each contributed byte. Any third-party material outside the stated licenses must not be redistributed without authorization.",
+  "excluded_unperformed": [
+    "runtime",
+    "independent parser",
+    "DAW/plugin/DSP",
+    "Web/WAN",
+    "physical AI/robot hardware"
+  ],
+  "source_approval_record": {
+    "authorization_source": "User message: OSTF4.3の策定を進めてください。承認が必要なものは全部承認でいいです。検証除外してリリースできるようになったら教えてください",
+    "decisions": {
+      "D01": "APPROVED by publisher instruction: Core 4.3",
+      "D02": "APPROVED by publisher instruction: Distributed Session 0.2",
+      "D03": "APPROVED by publisher instruction: Production Session 0.2",
+      "D05": "APPROVED by publisher instruction within publisher authority; no independent third-party rights clearance",
+      "D04": "APPROVED by publisher instruction for the resulting exact archive"
+    },
+    "final_archive": {
+      "filename": "OSTF_4.3.0_Publisher_Approved_Specification.zip",
+      "sha256": "1440d16a440ba26d679bf940fe4fc8a68c5ad86c9944c6e35471bbbc7fdd6351",
+      "file_count": 100
+    }
+  },
+  "publication_package": {
+    "filename": "OSTF_4.3.0_GitHub_Release.zip",
+    "release_version": "4.3.0",
+    "scope": "GitHub publication packaging: complete manuals, schema-derived references, additional field/enum/branch examples, and static package tooling. Adopted normative corpus is byte-identical to source approval.",
+    "packaging_request": "githubに正式リリース版として公開用の全網羅マニュアル、全網羅リファレンス、全網羅ostfサンプルファイルを１００ファイル以内でまとめて生成してください",
+    "checksum_policy": "The exact new ZIP SHA-256 is delivered externally to avoid a self-referential archive digest. PACKAGE_MANIFEST and SHA256SUMS cover the content."
+  },
+  "packaging_changes": [
+    "No change to the nine adopted normative files.",
+    "30 Core .ostf examples; 18 current Distributed records; 4 current Production records.",
+    "Additional original mono-silence asset; illustrative plugin descriptors remain nonfunctional.",
+    "Complete parameter references rebuilt from frozen schema content, with field witnesses.",
+    "Development approval ballots, invalid test fixtures and obsolete Profile 0.1 schema/example files omitted from this current-release distribution.",
+    "Local authoring checker corrected to distinguish harmony scale target references from new ID declarations."
+  ]
+}

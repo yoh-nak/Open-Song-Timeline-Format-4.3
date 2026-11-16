@@ -1,0 +1,3024 @@
+{
+  "format": "OSTF",
+  "version": "4.3.0",
+  "ppq": 960,
+  "song": {
+    "title": "Enumerated alternatives catalogue B: derived-data statuses",
+    "subtitle": "Illustrative data, not an audio-rendering demonstration",
+    "description": "Systematic witnesses for Core parameters, including inherited optional fields. URI metadata can describe unavailable external resources. No plugin or speech engine is invoked.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "A",
+        "alter": 0
+      },
+      "mode": "minor",
+      "label": "A minor"
+    },
+    "scale": {
+      "id": "song-scale",
+      "tonic": {
+        "step": "A",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "label": "A natural minor"
+    },
+    "genres": [
+      {
+        "id": "genre-pop",
+        "name": "Pop",
+        "externalUri": "urn:ostf:example:genre:pop"
+      }
+    ],
+    "moods": [
+      {
+        "id": "mood-driving",
+        "name": "Driving",
+        "externalUri": "urn:ostf:example:mood:driving"
+      }
+    ],
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "melodyTrackIds": [
+      "lead"
+    ],
+    "alternateTitles": [
+      {
+        "id": "alt-title",
+        "title": "Complete Reference Song"
+      }
+    ],
+    "credits": [
+      {
+        "id": "credit-composer",
+        "contributorId": "contrib-author",
+        "role": "composer",
+        "label": "Composer credit (fictional)"
+      }
+    ],
+    "rights": {
+      "notice": "Fictional example material.",
+      "rightsHolderIds": [
+        "contrib-author"
+      ],
+      "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "primaryLyricDocumentId": "lyr-doc",
+    "primaryMelodyTrackId": "lead",
+    "localizedTitles": {
+      "ja": "OSTF 4.3 全パラメーター作成例",
+      "en": "Complete authoring catalogue"
+    }
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "intro",
+        "name": "Intro",
+        "start": 0,
+        "duration": 7680,
+        "role": "intro",
+        "localizedNames": {
+          "en": "Intro",
+          "ja": "Intro構成"
+        }
+      },
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 7680,
+        "duration": 15360,
+        "role": "verse",
+        "localizedNames": {
+          "en": "Verse",
+          "ja": "Verse構成"
+        }
+      },
+      {
+        "id": "chorus",
+        "name": "Chorus",
+        "start": 23040,
+        "duration": 15360,
+        "role": "chorus",
+        "localizedNames": {
+          "en": "Chorus",
+          "ja": "Chorus構成"
+        }
+      },
+      {
+        "id": "solo",
+        "name": "Solo",
+        "start": 38400,
+        "duration": 15360,
+        "role": "bridge",
+        "localizedNames": {
+          "en": "Solo",
+          "ja": "Solo構成"
+        }
+      },
+      {
+        "id": "outro",
+        "name": "Outro",
+        "start": 53760,
+        "duration": 7680,
+        "role": "outro",
+        "localizedNames": {
+          "en": "Outro",
+          "ja": "Outro構成"
+        }
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 122
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 7680,
+        "numerator": 4,
+        "denominator": 1,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 15360,
+        "numerator": 4,
+        "denominator": 2,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 23040,
+        "numerator": 4,
+        "denominator": 8,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 30720,
+        "numerator": 4,
+        "denominator": 16,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 38400,
+        "numerator": 4,
+        "denominator": 32,
+        "beatGroups": [
+          2,
+          2
+        ]
+      },
+      {
+        "at": 46080,
+        "numerator": 4,
+        "denominator": 64,
+        "beatGroups": [
+          2,
+          2
+        ]
+      }
+    ],
+    "duration": 61440,
+    "barOrigin": 1,
+    "keyChanges": [
+      {
+        "id": "catalogue-key-0",
+        "at": 7680,
+        "key": {
+          "state": "tonal",
+          "label": "Catalogue key 0",
+          "tonic": {
+            "step": "B",
+            "alter": 0
+          },
+          "mode": "minor"
+        },
+        "label": "Catalogue key 0"
+      },
+      {
+        "id": "catalogue-key-1",
+        "at": 15360,
+        "key": {
+          "state": "tonal",
+          "label": "Catalogue key 1",
+          "tonic": {
+            "step": "D",
+            "alter": 0
+          },
+          "mode": "minor"
+        },
+        "label": "Catalogue key 1"
+      },
+      {
+        "id": "catalogue-key-2",
+        "at": 23040,
+        "key": {
+          "state": "tonal",
+          "label": "Catalogue key 2",
+          "tonic": {
+            "step": "E",
+            "alter": 0
+          },
+          "mode": "minor"
+        },
+        "label": "Catalogue key 2"
+      },
+      {
+        "id": "catalogue-key-3",
+        "at": 30720,
+        "key": {
+          "state": "atonal",
+          "label": "Catalogue key 3"
+        },
+        "label": "Catalogue key 3"
+      },
+      {
+        "id": "catalogue-key-4",
+        "at": 38400,
+        "key": {
+          "state": "unspecified",
+          "label": "Catalogue key 4"
+        },
+        "label": "Catalogue key 4"
+      },
+      {
+        "id": "key-change-1",
+        "at": 53760,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        },
+        "label": "Return to tonic"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "ch1",
+        "start": 0,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "bass": {
+          "step": "A",
+          "alter": 0
+        },
+        "voicing": {
+          "pitches": [
+            45,
+            52,
+            57,
+            60
+          ],
+          "velocities": [
+            null,
+            85,
+            84,
+            86
+          ]
+        }
+      },
+      {
+        "id": "ch2",
+        "start": 3840,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch3",
+        "start": 7680,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch4",
+        "start": 11520,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch5",
+        "start": 15360,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch6",
+        "start": 19200,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch7",
+        "start": 23040,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch8",
+        "start": 26880,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch9",
+        "start": 30720,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch10",
+        "start": 34560,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch11",
+        "start": 38400,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch12",
+        "start": 42240,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch13",
+        "start": 46080,
+        "duration": 3840,
+        "label": "Am",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      },
+      {
+        "id": "ch14",
+        "start": 49920,
+        "duration": 3840,
+        "label": "F",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch15",
+        "start": 53760,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      },
+      {
+        "id": "ch16",
+        "start": 57600,
+        "duration": 3840,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "id": "scale-lead",
+        "start": 38400,
+        "duration": 15360,
+        "label": "A minor collection",
+        "tonic": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          10
+        ],
+        "targets": [
+          {
+            "type": "section",
+            "id": "solo"
+          },
+          {
+            "type": "track",
+            "id": "lead"
+          },
+          {
+            "type": "clip",
+            "id": "lead-cl"
+          },
+          {
+            "type": "chord",
+            "id": "ch11"
+          },
+          {
+            "type": "note",
+            "id": "g1"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead Guitar",
+      "clips": [
+        {
+          "id": "lead-cl",
+          "start": 38400,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "g1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 96,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 1,
+              "pitchRole": "musical"
+            },
+            {
+              "id": "g2",
+              "start": 960,
+              "duration": 960,
+              "pitch": 72,
+              "velocity": 92,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 1,
+              "pitchRole": "musical"
+            }
+          ],
+          "name": "Lead Guitar phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Lead Guitarフレーズ"
+          },
+          "vocalPerformances": [
+            {
+              "id": "vp-complete",
+              "voiceId": "lyr-voice",
+              "noteIds": [
+                "g1",
+                "g2"
+              ],
+              "phonemeEvents": [
+                {
+                  "id": "ph-event-1",
+                  "unitId": "lyr-u1",
+                  "noteId": "g1",
+                  "alphabet": "other",
+                  "namespace": "com.example.phonemes",
+                  "symbol": "OPEN",
+                  "start": 0,
+                  "duration": 960,
+                  "order": 0
+                },
+                {
+                  "id": "catalogue-phoneme-0",
+                  "unitId": "lyr-u2",
+                  "noteId": "g2",
+                  "alphabet": "xsampa",
+                  "symbol": "aI",
+                  "start": 960,
+                  "duration": 120,
+                  "order": 0
+                },
+                {
+                  "id": "catalogue-phoneme-1",
+                  "unitId": "lyr-u2",
+                  "noteId": "g2",
+                  "alphabet": "arpabet",
+                  "symbol": "AY1",
+                  "start": 1080,
+                  "duration": 120,
+                  "order": 1
+                }
+              ],
+              "pitchCurves": [
+                {
+                  "id": "pitch-curve-1",
+                  "targetNoteId": "g1",
+                  "unit": "cents",
+                  "interpolation": "step",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0
+                    },
+                    {
+                      "at": 480,
+                      "value": 12
+                    }
+                  ]
+                }
+              ],
+              "expressionCurves": [
+                {
+                  "id": "expression-1",
+                  "parameter": "dynamics",
+                  "targetNoteId": "g1",
+                  "interpolation": "step",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.5
+                    },
+                    {
+                      "at": 480,
+                      "value": 0.6
+                    }
+                  ]
+                },
+                {
+                  "id": "catalogue-expression-tension",
+                  "parameter": "tension",
+                  "interpolation": "step",
+                  "targetNoteId": "g2",
+                  "points": [
+                    {
+                      "at": 960,
+                      "value": 0.5
+                    }
+                  ]
+                },
+                {
+                  "id": "catalogue-expression-brightness",
+                  "parameter": "brightness",
+                  "interpolation": "step",
+                  "targetNoteId": "g2",
+                  "points": [
+                    {
+                      "at": 960,
+                      "value": 0.5
+                    }
+                  ]
+                },
+                {
+                  "id": "catalogue-expression-voicing",
+                  "parameter": "voicing",
+                  "interpolation": "step",
+                  "targetNoteId": "g2",
+                  "points": [
+                    {
+                      "at": 960,
+                      "value": 0.5
+                    }
+                  ]
+                }
+              ],
+              "techniques": [
+                {
+                  "id": "technique-1",
+                  "start": 0,
+                  "duration": 960,
+                  "kind": "legato",
+                  "intensity": 0.5,
+                  "targetNoteId": "g1"
+                },
+                {
+                  "id": "catalogue-technique-scoop",
+                  "start": 960,
+                  "duration": 60,
+                  "kind": "scoop",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-fall",
+                  "start": 1020,
+                  "duration": 60,
+                  "kind": "fall",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-vibrato",
+                  "start": 1080,
+                  "duration": 60,
+                  "kind": "vibrato",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-portamento",
+                  "start": 1140,
+                  "duration": 60,
+                  "kind": "portamento",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-staccato",
+                  "start": 1200,
+                  "duration": 60,
+                  "kind": "staccato",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-accent",
+                  "start": 1260,
+                  "duration": 60,
+                  "kind": "accent",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-whisper",
+                  "start": 1320,
+                  "duration": 60,
+                  "kind": "whisper",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-growl",
+                  "start": 1380,
+                  "duration": 60,
+                  "kind": "growl",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-falsetto",
+                  "start": 1440,
+                  "duration": 60,
+                  "kind": "falsetto",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-rap",
+                  "start": 1500,
+                  "duration": 60,
+                  "kind": "rap",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                },
+                {
+                  "id": "catalogue-technique-melisma",
+                  "start": 1560,
+                  "duration": 60,
+                  "kind": "melisma",
+                  "intensity": 0.5,
+                  "targetNoteId": "g2"
+                }
+              ],
+              "breathEvents": [
+                {
+                  "id": "breath-1",
+                  "start": 1920,
+                  "duration": 240,
+                  "kind": "inhale",
+                  "intensity": 0.3
+                }
+              ]
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "catalogue-midi",
+              "type": "controlChange",
+              "start": 0,
+              "channel": 1,
+              "order": 0,
+              "controller": 11,
+              "value": 100
+            }
+          ]
+        }
+      ],
+      "role": "accompaniment",
+      "trackType": "melodic",
+      "instrument": {
+        "name": "Electric Guitar",
+        "family": "guitar",
+        "playablePitchRange": {
+          "lowPitch": 40,
+          "highPitch": 88
+        },
+        "localizedNames": {
+          "ja": "Lead Guitar音源"
+        }
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 1
+      },
+      "directions": [
+        {
+          "id": "lead-role",
+          "start": 38400,
+          "duration": 15360,
+          "type": "playingRole",
+          "parameters": {
+            "role": "solo"
+          },
+          "label": "playingRole example",
+          "instruction": "Descriptive musical intent; never an executable command."
+        },
+        {
+          "id": "lead-scale",
+          "start": 38400,
+          "duration": 15360,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "explicitScale",
+              "scale": {
+                "tonic": {
+                  "step": "A",
+                  "alter": 0
+                },
+                "intervals": [
+                  0,
+                  3,
+                  5,
+                  7,
+                  10
+                ],
+                "label": "A minor pentatonic"
+              }
+            },
+            "adherence": "strict"
+          },
+          "label": "improvisation example",
+          "instruction": "Descriptive musical intent; never an executable command."
+        },
+        {
+          "id": "lead-vendor-cue",
+          "at": 46080,
+          "type": "vendor",
+          "parameters": {
+            "namespace": "com.example.performance.cue",
+            "name": "accentCue",
+            "version": "1.0",
+            "data": {
+              "level": "medium"
+            }
+          },
+          "instruction": "Mark the phrase peak here.",
+          "label": "vendor example"
+        },
+        {
+          "id": "dir-song-scale",
+          "start": 0,
+          "duration": 7680,
+          "type": "improvisation",
+          "label": "Song scale",
+          "instruction": "Use the declared song scale.",
+          "parameters": {
+            "pitchSource": {
+              "type": "songScale"
+            },
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "dir-harmony-scale",
+          "start": 38400,
+          "duration": 15360,
+          "type": "improvisation",
+          "label": "Harmony scale",
+          "instruction": "Use this explicit scale-context reference.",
+          "parameters": {
+            "pitchSource": {
+              "type": "harmonyScales",
+              "scaleIds": [
+                "scale-lead"
+              ]
+            },
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "dir-pitch-range",
+          "start": 38400,
+          "duration": 15360,
+          "type": "pitchRange",
+          "label": "Comfortable register",
+          "instruction": "Preferred register, not a note rewrite.",
+          "parameters": {
+            "lowPitch": 48,
+            "highPitch": 84,
+            "constraint": "strict"
+          }
+        },
+        {
+          "id": "dir-vendor-range",
+          "start": 0,
+          "duration": 7680,
+          "type": "vendor",
+          "label": "Retain unknown data",
+          "instruction": "Preserve, do not execute.",
+          "parameters": {
+            "namespace": "com.example.ostf",
+            "name": "stageDescription",
+            "version": "1.0",
+            "data": {
+              "displayText": "Fictional stage cue"
+            }
+          }
+        },
+        {
+          "id": "dir-phrasing",
+          "start": 38400,
+          "duration": 15360,
+          "type": "phrasing",
+          "label": "Motivic phrase",
+          "instruction": "Intent is subordinate to saved concrete notes.",
+          "parameters": {
+            "phraseLengthTicks": {
+              "min": 960,
+              "max": 3840
+            },
+            "onsetGroupsPerQuarter": {
+              "min": 1,
+              "max": 4
+            },
+            "development": "motivicVariation",
+            "contour": "arch",
+            "energyShape": "rising",
+            "motifRef": "tpl-solo",
+            "adherence": "preferred"
+          }
+        },
+        {
+          "id": "dir-vocal-freedom",
+          "start": 38400,
+          "duration": 1920,
+          "type": "vocalFreedom",
+          "label": "Two lyric alternatives",
+          "instruction": "Choose explicitly; do not replace authored notes on import.",
+          "parameters": {
+            "voiceId": "lyr-voice",
+            "textPolicy": "alternatives",
+            "melodyPolicy": "ornamentable",
+            "vocalizationKind": "lexical",
+            "candidatePhraseSets": [
+              {
+                "phraseIds": [
+                  "lyr-ph"
+                ]
+              },
+              {
+                "phraseIds": [
+                  "lyr-ph-alt"
+                ]
+              }
+            ],
+            "adherence": "preferred"
+          }
+        },
+        {
+          "id": "catalogue-phrasing-0",
+          "type": "phrasing",
+          "start": 0,
+          "duration": 3840,
+          "parameters": {
+            "development": "free",
+            "contour": "descending",
+            "energyShape": "falling",
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "catalogue-phrasing-1",
+          "type": "phrasing",
+          "start": 3840,
+          "duration": 3840,
+          "parameters": {
+            "development": "free",
+            "contour": "valley",
+            "energyShape": "arch",
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "catalogue-phrasing-2",
+          "type": "phrasing",
+          "start": 7680,
+          "duration": 3840,
+          "parameters": {
+            "development": "free",
+            "contour": "stable",
+            "energyShape": "valley",
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "catalogue-phrasing-3",
+          "type": "phrasing",
+          "start": 11520,
+          "duration": 3840,
+          "parameters": {
+            "development": "free",
+            "contour": "free",
+            "energyShape": "stable",
+            "adherence": "strict"
+          }
+        },
+        {
+          "id": "catalogue-phrasing-4",
+          "type": "phrasing",
+          "start": 15360,
+          "duration": 3840,
+          "parameters": {
+            "development": "free",
+            "contour": "ascending",
+            "energyShape": "free",
+            "adherence": "strict"
+          }
+        }
+      ],
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Lead Guitarトラック"
+      },
+      "preferredView": "pianoRoll",
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:lead"
+      },
+      "performanceRequirements": {
+        "requiredPolyphony": 2,
+        "requiredPitchRange": {
+          "lowPitch": 48,
+          "highPitch": 84
+        },
+        "requiredArticulations": [
+          "legato",
+          "staccato"
+        ],
+        "peakOnsetGroupsPerQuarter": 4
+      }
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "clips": [
+        {
+          "id": "bass-cl",
+          "start": 0,
+          "duration": 61440,
+          "notes": [
+            {
+              "id": "b1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 45,
+              "velocity": 95,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 2,
+              "pitchRole": "musical"
+            }
+          ],
+          "name": "Bass phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Bassフレーズ"
+          }
+        }
+      ],
+      "role": "bassline",
+      "trackType": "melodic",
+      "instrument": {
+        "name": "5-string Bass",
+        "family": "bass",
+        "playablePitchRange": {
+          "lowPitch": 23,
+          "highPitch": 67
+        },
+        "localizedNames": {
+          "ja": "Bass音源"
+        }
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 2
+      },
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Bassトラック"
+      },
+      "preferredView": "pianoRoll",
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:bass"
+      }
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "clips": [
+        {
+          "id": "dr-cl",
+          "start": 0,
+          "duration": 61440,
+          "notes": [
+            {
+              "id": "dk",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 115,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 10
+            },
+            {
+              "id": "ds",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "snare",
+              "velocity": 108,
+              "enabled": true,
+              "releaseVelocity": 48,
+              "probability": 1.0,
+              "velocityDeviation": 0,
+              "channel": 10
+            }
+          ],
+          "name": "Drums phrase",
+          "enabled": true,
+          "localizedNames": {
+            "ja": "Drumsフレーズ"
+          }
+        }
+      ],
+      "role": "drums",
+      "trackType": "drum",
+      "drumKitId": "kit",
+      "preferredView": "drumGrid",
+      "midi": {
+        "busId": "bus-main",
+        "mode": "singleChannel",
+        "channel": 10
+      },
+      "enabled": true,
+      "localizedNames": {
+        "ja": "Drumsトラック"
+      },
+      "instrument": {
+        "name": "Drums",
+        "family": "percussion",
+        "localizedNames": {
+          "ja": "Drums音源"
+        }
+      },
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:ostf:example:nonfunctional:drums"
+      }
+    },
+    {
+      "id": "catalogue-track-0",
+      "name": "Catalogue unassigned",
+      "trackType": "mixed",
+      "preferredView": "auto",
+      "soundSource": {
+        "kind": "unassigned"
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "multiChannel"
+      },
+      "clips": [
+        {
+          "id": "catalogue-clip-0",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "catalogue-note-0",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 90,
+              "channel": 3
+            },
+            {
+              "id": "catalogue-slot-0",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 90,
+              "channel": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-track-1",
+      "name": "Catalogue gm1",
+      "trackType": "mixed",
+      "preferredView": "auto",
+      "soundSource": {
+        "kind": "gm1"
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "multiChannel"
+      },
+      "clips": [
+        {
+          "id": "catalogue-clip-1",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "catalogue-note-1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 61,
+              "velocity": 90,
+              "channel": 4
+            },
+            {
+              "id": "catalogue-slot-1",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 90,
+              "channel": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-track-2",
+      "name": "Catalogue externalMidi",
+      "trackType": "mixed",
+      "preferredView": "auto",
+      "soundSource": {
+        "kind": "externalMidi",
+        "identifier": "urn:ostf:example:externalMidi"
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "multiChannel"
+      },
+      "clips": [
+        {
+          "id": "catalogue-clip-2",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "catalogue-note-2",
+              "start": 0,
+              "duration": 960,
+              "pitch": 62,
+              "velocity": 90,
+              "channel": 5
+            },
+            {
+              "id": "catalogue-slot-2",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 90,
+              "channel": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-track-3",
+      "name": "Catalogue hostManaged",
+      "trackType": "mixed",
+      "preferredView": "auto",
+      "soundSource": {
+        "kind": "hostManaged",
+        "identifier": "urn:ostf:example:hostManaged"
+      },
+      "midi": {
+        "busId": "bus-main",
+        "mode": "multiChannel"
+      },
+      "clips": [
+        {
+          "id": "catalogue-clip-3",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "catalogue-note-3",
+              "start": 0,
+              "duration": 960,
+              "pitch": 63,
+              "velocity": 90,
+              "channel": 6
+            },
+            {
+              "id": "catalogue-slot-3",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 90,
+              "channel": 10
+            }
+          ]
+        }
+      ],
+      "directions": [
+        {
+          "id": "catalogue-hum-freedom",
+          "type": "vocalFreedom",
+          "start": 0,
+          "duration": 3840,
+          "parameters": {
+            "voiceId": "catalogue-voice-3",
+            "textPolicy": "open",
+            "melodyPolicy": "fixed",
+            "vocalizationKind": "humming",
+            "adherence": "strict"
+          }
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Kick",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      },
+      "role": "kick",
+      "midiNote": 36,
+      "localizedNames": {
+        "ja": "Kick"
+      }
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      },
+      "role": "snare",
+      "midiNote": 38,
+      "localizedNames": {
+        "ja": "Snare"
+      }
+    },
+    {
+      "id": "hat",
+      "name": "Closed Hat",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 42
+      },
+      "role": "closed hat",
+      "midiNote": 42,
+      "localizedNames": {
+        "ja": "Closed Hat"
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "lyr-doc",
+        "title": "Lead lyric",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "lyr-ph",
+        "documentId": "lyr-doc",
+        "text": "Open the light",
+        "start": 38400,
+        "duration": 1920,
+        "pronunciation": "oʊpən ðə laɪt"
+      },
+      {
+        "id": "lyr-ph-alt",
+        "documentId": "lyr-doc",
+        "text": "Follow the light",
+        "pronunciation": "fɑloʊ ðə laɪt",
+        "start": 38400,
+        "duration": 1920
+      }
+    ],
+    "units": [
+      {
+        "id": "lyr-u1",
+        "phraseId": "lyr-ph",
+        "text": "Open",
+        "pronunciation": "oʊpən",
+        "start": 38400,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "en",
+            "symbols": [
+              "oʊ",
+              "p",
+              "ə",
+              "n"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "language": "en",
+            "namespace": "com.example.phonemes",
+            "symbols": [
+              "OPEN"
+            ],
+            "preferred": false
+          },
+          {
+            "alphabet": "xsampa",
+            "language": "en",
+            "symbols": [
+              "oU"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "arpabet",
+            "language": "en",
+            "symbols": [
+              "OW1"
+            ],
+            "preferred": true
+          }
+        ]
+      },
+      {
+        "id": "lyr-u2",
+        "phraseId": "lyr-ph",
+        "text": "the light",
+        "pronunciation": "ðə laɪt",
+        "start": 39360,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "en",
+            "symbols": [
+              "ð",
+              "ə",
+              "l",
+              "aɪ",
+              "t"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "language": "en",
+            "namespace": "com.example.phonemes",
+            "symbols": [
+              "LIGHT"
+            ],
+            "preferred": false
+          }
+        ]
+      }
+    ],
+    "alignments": [
+      {
+        "id": "lyr-al",
+        "unitIds": [
+          "lyr-u1",
+          "lyr-u2"
+        ],
+        "noteIds": [
+          "g1",
+          "g2"
+        ],
+        "voiceId": "lyr-voice"
+      }
+    ],
+    "voices": [
+      {
+        "id": "lyr-voice",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "lead",
+        "documentId": "lyr-doc",
+        "vocalProfile": {
+          "language": "en",
+          "deliveryMode": "sing",
+          "voiceDescription": "Neutral fictional test voice, no voicebank reference"
+        }
+      },
+      {
+        "id": "catalogue-voice-1",
+        "name": "gm1",
+        "role": "adlib",
+        "trackId": "catalogue-track-1",
+        "documentId": "lyr-doc",
+        "vocalProfile": {
+          "language": "en",
+          "deliveryMode": "rap",
+          "voiceDescription": "Fictional catalogue voice"
+        }
+      },
+      {
+        "id": "catalogue-voice-2",
+        "name": "externalMidi",
+        "role": "adlib",
+        "trackId": "catalogue-track-2",
+        "documentId": "lyr-doc",
+        "vocalProfile": {
+          "language": "en",
+          "deliveryMode": "speak",
+          "voiceDescription": "Fictional catalogue voice"
+        }
+      },
+      {
+        "id": "catalogue-voice-3",
+        "name": "hostManaged",
+        "role": "adlib",
+        "trackId": "catalogue-track-3",
+        "documentId": "lyr-doc",
+        "vocalProfile": {
+          "language": "en",
+          "deliveryMode": "hum",
+          "voiceDescription": "Fictional catalogue voice"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "res-notes",
+      "kind": "text",
+      "uri": "notes/reference.txt",
+      "name": "Reference notes",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    },
+    {
+      "id": "res-source-16",
+      "kind": "other",
+      "uri": "16-inherited-comprehensive-core.ostf",
+      "name": "Source example",
+      "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d"
+    },
+    {
+      "id": "catalogue-resource-audio",
+      "kind": "audio",
+      "uri": "production/assets/example-audio.wav",
+      "name": "Synthetic test tone",
+      "sha256": "110cb40717a57ade4a8e28e5a448596973a83efe32937dbdafb7683dfa2bec39"
+    },
+    {
+      "id": "catalogue-resource-midi",
+      "kind": "midi",
+      "uri": "urn:ostf:example:external-midi-not-bundled",
+      "name": "External descriptor only, no MIDI file bundled"
+    }
+  ],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus-main",
+        "name": "Main MIDI"
+      }
+    ]
+  },
+  "drumKits": [
+    {
+      "id": "kit",
+      "name": "Pop Kit",
+      "soundSlotIds": [
+        "kick",
+        "snare",
+        "hat"
+      ],
+      "localizedNames": {
+        "ja": "ポップキット"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "id": "contrib-author",
+      "name": "OSTF Example Author",
+      "kind": "person",
+      "localizedNames": {
+        "ja": "架空の作曲者"
+      }
+    },
+    {
+      "id": "catalogue-contributor-organization",
+      "name": "Fictional organization",
+      "kind": "organization"
+    },
+    {
+      "id": "catalogue-contributor-other",
+      "name": "Fictional other",
+      "kind": "other"
+    }
+  ],
+  "document": {
+    "id": "doc-variants-b",
+    "revisionId": "r1",
+    "createdBy": {
+      "name": "OSTF Release Examples",
+      "version": "4.3.0"
+    },
+    "parents": [
+      {
+        "documentId": "doc-comprehensive",
+        "revisionId": "rev-1",
+        "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d"
+      }
+    ],
+    "modifiedBy": {
+      "name": "OSTF release package editor",
+      "version": "4.3.0"
+    }
+  },
+  "provenance": {
+    "records": [
+      {
+        "id": "prov-create",
+        "action": "create",
+        "description": "Created as a comprehensive 4.1 example.",
+        "tool": {
+          "name": "OSTF Release Examples",
+          "version": "4.1.0"
+        }
+      },
+      {
+        "id": "prov-transpose-demo",
+        "action": "transpose",
+        "description": "Illustration of a zero-semitone transform; not an audit of a third-party tool.",
+        "tool": {
+          "name": "OSTF examples",
+          "version": "4.3.0"
+        },
+        "sources": [
+          {
+            "format": "OSTF",
+            "version": "4.3.0",
+            "sha256": "5aca2066731a132c4b865a3c25e2f8602ef037970bc121e297694e2e9941b32d",
+            "uri": "16-inherited-comprehensive-core.ostf",
+            "documentId": "doc-comprehensive",
+            "revisionId": "rev-1",
+            "resourceId": "res-source-16"
+          }
+        ],
+        "semitones": 0,
+        "beforeKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        },
+        "afterKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "A",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "A minor"
+        }
+      },
+      {
+        "id": "catalogue-provenance-import",
+        "action": "import",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      },
+      {
+        "id": "catalogue-provenance-conversion",
+        "action": "conversion",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      },
+      {
+        "id": "catalogue-provenance-edit",
+        "action": "edit",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      },
+      {
+        "id": "catalogue-provenance-merge",
+        "action": "merge",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      },
+      {
+        "id": "catalogue-provenance-generation",
+        "action": "generation",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      },
+      {
+        "id": "catalogue-provenance-other",
+        "action": "other",
+        "description": "Illustrative provenance action; not a claim of external processing."
+      }
+    ]
+  },
+  "relativePhrases": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "note",
+          "id": "g1"
+        },
+        {
+          "type": "chord",
+          "id": "ch11"
+        }
+      ]
+    },
+    "assignments": [
+      {
+        "noteId": "g1",
+        "basis": "chordTone",
+        "contextId": "ch11",
+        "anchorPitch": 69,
+        "index": 1,
+        "chromaticOffset": 0
+      },
+      {
+        "noteId": "g2",
+        "basis": "scaleDegree",
+        "contextId": "scale-lead",
+        "anchorPitch": 69,
+        "index": 3,
+        "chromaticOffset": 0
+      }
+    ]
+  },
+  "generation": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "section",
+          "id": "solo"
+        },
+        {
+          "type": "track",
+          "id": "lead"
+        },
+        {
+          "type": "clip",
+          "id": "lead-cl"
+        },
+        {
+          "type": "note",
+          "id": "g1"
+        },
+        {
+          "type": "chord",
+          "id": "ch11"
+        },
+        {
+          "type": "scale",
+          "id": "scale-lead"
+        },
+        {
+          "type": "soundSlot",
+          "id": "kick"
+        },
+        {
+          "type": "drumKit",
+          "id": "kit"
+        },
+        {
+          "type": "lyricDocument",
+          "id": "lyr-doc"
+        },
+        {
+          "type": "lyricPhrase",
+          "id": "lyr-ph"
+        },
+        {
+          "type": "lyricUnit",
+          "id": "lyr-u1"
+        },
+        {
+          "type": "lyricAlignment",
+          "id": "lyr-al"
+        },
+        {
+          "type": "resource",
+          "id": "res-source-16"
+        },
+        {
+          "type": "genre",
+          "id": "genre-pop"
+        },
+        {
+          "type": "contributor",
+          "id": "contrib-author"
+        },
+        {
+          "type": "credit",
+          "id": "credit-composer"
+        },
+        {
+          "type": "alternateTitle",
+          "id": "alt-title"
+        },
+        {
+          "type": "mood",
+          "id": "mood-driving"
+        },
+        {
+          "type": "keyChange",
+          "id": "key-change-1"
+        },
+        {
+          "type": "phraseTemplate",
+          "id": "tpl-solo"
+        },
+        {
+          "type": "phraseInstance",
+          "id": "inst-solo"
+        },
+        {
+          "type": "clipChoiceGroup",
+          "id": "choice-lead"
+        },
+        {
+          "type": "clipCandidate",
+          "id": "candidate-main"
+        },
+        {
+          "type": "roleDefinition",
+          "id": "role-solo-section"
+        },
+        {
+          "type": "generationProcess",
+          "id": "gen-lead"
+        },
+        {
+          "type": "provenanceRecord",
+          "id": "prov-create"
+        },
+        {
+          "type": "midiBus",
+          "id": "bus-main"
+        },
+        {
+          "type": "midiEvent",
+          "id": "catalogue-midi"
+        },
+        {
+          "type": "lyricVoice",
+          "id": "lyr-voice"
+        },
+        {
+          "type": "trackDirection",
+          "id": "lead-role"
+        },
+        {
+          "type": "ensembleInteraction",
+          "id": "interaction-complete"
+        },
+        {
+          "type": "performancePlan",
+          "id": "plan-complete"
+        },
+        {
+          "type": "performanceVisit",
+          "id": "visit-complete"
+        }
+      ]
+    },
+    "processes": [
+      {
+        "id": "gen-lead",
+        "generator": {
+          "id": "com.example.generator",
+          "version": "1.0"
+        },
+        "inputs": [
+          {
+            "role": "harmony",
+            "ref": {
+              "type": "chord",
+              "id": "ch11"
+            },
+            "readRange": {
+              "start": 38400,
+              "duration": 15360
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "g1"
+          },
+          {
+            "type": "note",
+            "id": "g2"
+          }
+        ],
+        "protectedNoteIds": [],
+        "targetRange": {
+          "start": 38400,
+          "duration": 15360
+        },
+        "intent": {
+          "genreNames": [
+            "Pop"
+          ],
+          "moodNames": [
+            "Driving"
+          ],
+          "prompt": "Melodic sparse solo.",
+          "seed": "ostf-reference-43",
+          "groove": {
+            "name": "Unequal eighths",
+            "unitTicks": 480,
+            "longWeight": 2,
+            "shortWeight": 1
+          }
+        }
+      }
+    ]
+  },
+  "presentation": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "document"
+    },
+    "roleDefinitions": [
+      {
+        "id": "role-solo-section",
+        "name": "Solo Section",
+        "baseRole": "bridge"
+      }
+    ],
+    "sectionRoleAssignments": {
+      "solo": "role-solo-section"
+    },
+    "appearance": {
+      "roleColors": {
+        "bridge": "#6644AA"
+      },
+      "customRoleColors": {
+        "role-solo-section": "#8855CC"
+      },
+      "objectColors": [
+        {
+          "target": {
+            "type": "track",
+            "id": "lead"
+          },
+          "color": "#CC7722"
+        }
+      ]
+    }
+  },
+  "phraseLibrary": {
+    "status": "stale",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "clip",
+          "id": "lead-cl"
+        }
+      ]
+    },
+    "templates": [
+      {
+        "id": "tpl-solo",
+        "name": "Solo Seed",
+        "duration": 1920,
+        "notes": [
+          {
+            "id": "tpl-n1",
+            "start": 0,
+            "duration": 960,
+            "pitch": 69,
+            "velocity": 96,
+            "enabled": true,
+            "releaseVelocity": 48,
+            "probability": 1,
+            "velocityDeviation": 0,
+            "pitchRole": "musical"
+          },
+          {
+            "id": "tpl-n2",
+            "start": 960,
+            "duration": 960,
+            "pitch": 72,
+            "velocity": 92,
+            "enabled": true,
+            "releaseVelocity": 48,
+            "probability": 1,
+            "velocityDeviation": 0,
+            "pitchRole": "musical"
+          }
+        ]
+      },
+      {
+        "id": "tpl-drum",
+        "name": "Percussion seed",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "tpl-drum-n1",
+            "start": 0,
+            "duration": 120,
+            "soundSlotId": "kick",
+            "velocity": 100,
+            "enabled": true,
+            "releaseVelocity": 0,
+            "probability": 1,
+            "velocityDeviation": 0
+          }
+        ]
+      },
+      {
+        "id": "tpl-fixedtrigger",
+        "duration": 960,
+        "notes": [
+          {
+            "id": "tpl-trigger-note",
+            "start": 0,
+            "duration": 120,
+            "pitch": 12,
+            "pitchRole": "fixedTrigger"
+          }
+        ],
+        "name": "Literal trigger template"
+      }
+    ],
+    "instances": [
+      {
+        "id": "inst-solo",
+        "templateId": "tpl-solo",
+        "clipId": "lead-cl",
+        "repeatCount": 1,
+        "transpose": 0,
+        "noteMap": [
+          {
+            "templateNoteId": "tpl-n1",
+            "repeatIndex": 0,
+            "noteId": "g1"
+          },
+          {
+            "templateNoteId": "tpl-n2",
+            "repeatIndex": 0,
+            "noteId": "g2"
+          }
+        ],
+        "velocityMode": "independent",
+        "noteStateMode": "linked"
+      }
+    ]
+  },
+  "clipChoices": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "clip",
+          "id": "lead-cl"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "choice-lead",
+        "name": "Lead take",
+        "candidates": [
+          {
+            "id": "candidate-main",
+            "name": "Main",
+            "clipIds": [
+              "lead-cl"
+            ]
+          }
+        ],
+        "selectedCandidateId": null
+      }
+    ]
+  },
+  "localization": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "track",
+          "id": "lead"
+        }
+      ]
+    },
+    "entries": [
+      {
+        "target": {
+          "kind": "song"
+        },
+        "field": "title",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "alternateTitle",
+          "id": "alt-title"
+        },
+        "field": "title",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "contributor",
+          "id": "contrib-author"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "credit",
+          "id": "credit-composer"
+        },
+        "field": "label",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "section",
+          "id": "solo"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "track",
+          "id": "lead"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "clip",
+          "id": "lead-cl"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "soundSlot",
+          "id": "kick"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "drumKit",
+          "id": "kit"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "lyricDocument",
+          "id": "lyr-doc"
+        },
+        "field": "title",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "resource",
+          "id": "res-source-16"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "phraseTemplate",
+          "id": "tpl-solo"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "clipCandidate",
+          "id": "candidate-main"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "clipChoiceGroup",
+          "id": "choice-lead"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "roleDefinition",
+          "id": "role-solo-section"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "genre",
+          "id": "genre-pop"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "mood",
+          "id": "mood-driving"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "keyChange",
+          "id": "key-change-1"
+        },
+        "field": "label",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "scale",
+          "id": "scale-lead"
+        },
+        "field": "label",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "midiBus",
+          "id": "bus-main"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      },
+      {
+        "target": {
+          "kind": "lyricVoice",
+          "id": "lyr-voice"
+        },
+        "field": "name",
+        "values": {
+          "ja": "表示名の保持例",
+          "en": "Preserved display variant"
+        }
+      }
+    ]
+  },
+  "performancePlans": [
+    {
+      "id": "plan-complete",
+      "name": "Finite complete plan",
+      "mode": "orderedFinite",
+      "defaultRealization": "unspecified",
+      "visits": [
+        {
+          "id": "visit-complete",
+          "ordinal": 0,
+          "label": "Solo excerpt",
+          "sourceSectionIds": [
+            "solo"
+          ],
+          "parts": [
+            {
+              "trackId": "lead",
+              "role": "solo",
+              "realization": "fixed",
+              "replacesDirectionIds": [
+                "lead-role"
+              ]
+            },
+            {
+              "trackId": "bass",
+              "realization": "fixed"
+            },
+            {
+              "trackId": "drums",
+              "realization": "silent"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ensembleInteractions": [
+    {
+      "id": "interaction-complete",
+      "actorTrackId": "lead",
+      "partnerTrackId": "bass",
+      "relation": "leaveSpaceFor",
+      "start": 38400,
+      "duration": 15360,
+      "scope": {
+        "performancePlanId": "plan-complete",
+        "visitId": "visit-complete"
+      },
+      "responseWindowTicks": 960,
+      "adherence": "preferred"
+    },
+    {
+      "id": "catalogue-interaction-0",
+      "actorTrackId": "lead",
+      "partnerTrackId": "bass",
+      "relation": "alternateWith",
+      "start": 0,
+      "duration": 7680,
+      "adherence": "strict"
+    },
+    {
+      "id": "catalogue-interaction-1",
+      "actorTrackId": "lead",
+      "partnerTrackId": "bass",
+      "relation": "reinforce",
+      "start": 7680,
+      "duration": 7680,
+      "adherence": "strict"
+    }
+  ],
+  "extensions": {
+    "org.ostf.relative-phrase.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "current",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      "data": {
+        "assignments": [
+          {
+            "noteId": "g1",
+            "basis": "chordTone",
+            "contextId": "ch11",
+            "anchorPitch": 69,
+            "index": 1,
+            "chromaticOffset": 0
+          },
+          {
+            "noteId": "g2",
+            "basis": "scaleDegree",
+            "contextId": "scale-lead",
+            "anchorPitch": 69,
+            "index": 3,
+            "chromaticOffset": 0
+          }
+        ]
+      }
+    },
+    "org.ostf.generation-context.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "section",
+            "id": "solo"
+          },
+          {
+            "type": "track",
+            "id": "lead"
+          },
+          {
+            "type": "clip",
+            "id": "lead-cl"
+          },
+          {
+            "type": "note",
+            "id": "g1"
+          },
+          {
+            "type": "chord",
+            "id": "ch11"
+          },
+          {
+            "type": "scale",
+            "id": "scale-lead"
+          },
+          {
+            "type": "soundSlot",
+            "id": "kick"
+          },
+          {
+            "type": "drumKit",
+            "id": "kit"
+          },
+          {
+            "type": "lyricDocument",
+            "id": "lyr-doc"
+          },
+          {
+            "type": "lyricPhrase",
+            "id": "lyr-ph"
+          },
+          {
+            "type": "lyricUnit",
+            "id": "lyr-u1"
+          },
+          {
+            "type": "lyricAlignment",
+            "id": "lyr-al"
+          },
+          {
+            "type": "resource",
+            "id": "res-source-16"
+          },
+          {
+            "type": "genre",
+            "id": "genre-pop"
+          }
+        ]
+      },
+      "data": {
+        "processes": [
+          {
+            "id": "gen-lead",
+            "generator": {
+              "id": "com.example.generator",
+              "version": "1.0"
+            },
+            "inputs": [
+              {
+                "role": "harmony",
+                "ref": {
+                  "type": "chord",
+                  "id": "ch11"
+                },
+                "readRange": {
+                  "start": 38400,
+                  "duration": 15360
+                }
+              }
+            ],
+            "outputs": [
+              {
+                "type": "note",
+                "id": "g1"
+              },
+              {
+                "type": "note",
+                "id": "g2"
+              }
+            ],
+            "protectedNoteIds": [],
+            "targetRange": {
+              "start": 38400,
+              "duration": 15360
+            },
+            "vendorExtension": "com.example.legacy.generator"
+          }
+        ]
+      }
+    },
+    "org.ostf.appearance.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "stale",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      "data": {
+        "roleDefinitions": [
+          {
+            "id": "role-solo-section",
+            "name": "Solo Section",
+            "baseRole": "bridge"
+          }
+        ],
+        "sectionRoleAssignments": {
+          "solo": "role-solo-section"
+        },
+        "appearance": {
+          "roleColors": {
+            "bridge": "#6644AA"
+          },
+          "customRoleColors": {
+            "role-solo-section": "#8855CC"
+          },
+          "objectColors": [
+            {
+              "target": {
+                "type": "track",
+                "id": "lead"
+              },
+              "color": "#CC7722"
+            }
+          ]
+        }
+      }
+    },
+    "org.ostf.legacy-import.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "document"
+      },
+      "data": {
+        "sourceVersion": "2.3.0",
+        "sourceText": "Illustrative historical text only; not an executable/importable source file.",
+        "sourceSha256": "8b7f78b2e847c3da69b367c139b3458a9cc49c87101f1561f8e5611ebc0a75cf",
+        "conversionReport": {
+          "illustrative": true,
+          "losses": []
+        }
+      }
+    },
+    "org.ostf.phrase-library.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      "data": {
+        "templates": [
+          {
+            "id": "tpl-solo",
+            "name": "Solo Seed",
+            "duration": 1920,
+            "notes": [
+              {
+                "id": "tpl-n1",
+                "start": 0,
+                "duration": 960,
+                "pitch": 69
+              },
+              {
+                "id": "tpl-n2",
+                "start": 960,
+                "duration": 960,
+                "pitch": 72
+              }
+            ]
+          },
+          {
+            "id": "tpl-drum",
+            "name": "Percussion seed",
+            "duration": 960,
+            "notes": [
+              {
+                "id": "tpl-drum-n1",
+                "start": 0,
+                "duration": 120,
+                "soundSlotId": "kick"
+              }
+            ]
+          }
+        ],
+        "instances": [
+          {
+            "id": "inst-solo",
+            "templateId": "tpl-solo",
+            "clipId": "lead-cl",
+            "repeatCount": 1,
+            "transpose": 0,
+            "noteMap": [
+              {
+                "templateNoteId": "tpl-n1",
+                "repeatIndex": 0,
+                "noteId": "g1"
+              },
+              {
+                "templateNoteId": "tpl-n2",
+                "repeatIndex": 0,
+                "noteId": "g2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "org.ostf.clip-choices.v1": {
+      "version": "1.0.0-draft.1",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      "data": {
+        "groups": [
+          {
+            "id": "choice-lead",
+            "name": "Lead take",
+            "candidates": [
+              {
+                "id": "candidate-main",
+                "name": "Main",
+                "clipIds": [
+                  "lead-cl"
+                ]
+              }
+            ],
+            "selectedCandidateId": null
+          }
+        ]
+      }
+    },
+    "org.ostf.localization.v1": {
+      "version": "1.0.0",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "objects",
+        "refs": [
+          {
+            "type": "track",
+            "id": "lead"
+          }
+        ]
+      },
+      "data": {
+        "entries": [
+          {
+            "target": {
+              "kind": "song"
+            },
+            "field": "title",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "alternateTitle",
+              "id": "alt-title"
+            },
+            "field": "title",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "contributor",
+              "id": "contrib-author"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "credit",
+              "id": "credit-composer"
+            },
+            "field": "label",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "section",
+              "id": "solo"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "track",
+              "id": "lead"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "clip",
+              "id": "lead-cl"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "soundSlot",
+              "id": "kick"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "drumKit",
+              "id": "kit"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "lyricDocument",
+              "id": "lyr-doc"
+            },
+            "field": "title",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "resource",
+              "id": "res-source-16"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "phraseTemplate",
+              "id": "tpl-solo",
+              "profile": "org.ostf.phrase-library.v1"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "clipCandidate",
+              "id": "candidate-main",
+              "profile": "org.ostf.clip-choices.v1"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "clipChoiceGroup",
+              "id": "choice-lead",
+              "profile": "org.ostf.clip-choices.v1"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "roleDefinition",
+              "id": "role-solo-section",
+              "profile": "org.ostf.appearance.v1"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          },
+          {
+            "target": {
+              "kind": "genre",
+              "id": "genre-pop"
+            },
+            "field": "name",
+            "values": {
+              "ja": "表示名の保持例",
+              "en": "Preserved display variant"
+            }
+          }
+        ]
+      }
+    },
+    "com.example.retained.data": {
+      "version": "9.0.0",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "none"
+      },
+      "data": {
+        "unknownField": "Preserve without interpretation"
+      }
+    }
+  }
+}

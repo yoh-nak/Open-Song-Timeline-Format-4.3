@@ -1,0 +1,22 @@
+{
+  "profile": "OSTF-Distributed-Session-0.2",
+  "recordType": "event",
+  "eventId": "evt-performanceObserved-1",
+  "sessionId": "demo-remote-jam",
+  "documentId": "doc-remote-aaba-43",
+  "revisionId": "r1",
+  "performancePlanId": "form",
+  "scoreSha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+  "baseStateRevision": 1,
+  "issuerParticipantId": "remote-bass",
+  "kind": "performanceObserved",
+  "effectivePerformanceTick": 122880,
+  "payload": {
+    "observedParticipantId": "remote-piano",
+    "sourceTrackId": "piano",
+    "confidence": 0.8,
+    "features": {
+      "attackDensity": 1.2
+    }
+  }
+}

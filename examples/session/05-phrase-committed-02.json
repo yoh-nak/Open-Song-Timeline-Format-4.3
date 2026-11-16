@@ -1,0 +1,49 @@
+{
+  "profile": "OSTF-Distributed-Session-0.2",
+  "recordType": "event",
+  "eventId": "evt-committed-1",
+  "sessionId": "demo-remote-jam",
+  "documentId": "doc-remote-aaba-43",
+  "revisionId": "r1",
+  "performancePlanId": "form",
+  "scoreSha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+  "baseStateRevision": 0,
+  "issuerParticipantId": "coordinator",
+  "kind": "phraseCommitted",
+  "effectivePerformanceTick": 3840,
+  "payload": {
+    "proposalId": "bass-proposal-1",
+    "targetTrackId": "bass",
+    "phrase": {
+      "representation": "midi1Notes",
+      "durationTicks": 3840,
+      "notes": [
+        {
+          "startTick": 0,
+          "durationTicks": 720,
+          "pitch": 48,
+          "velocity": 82
+        },
+        {
+          "startTick": 960,
+          "durationTicks": 720,
+          "pitch": 50,
+          "velocity": 75
+        },
+        {
+          "startTick": 1920,
+          "durationTicks": 720,
+          "pitch": 53,
+          "velocity": 83
+        },
+        {
+          "startTick": 2880,
+          "durationTicks": 720,
+          "pitch": 55,
+          "velocity": 88
+        }
+      ]
+    }
+  },
+  "resultStateRevision": 1
+}

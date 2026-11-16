@@ -1,0 +1,94 @@
+{
+  "profile": "OSTF-Distributed-Session-0.2",
+  "recordType": "snapshot",
+  "sessionId": "demo-remote-jam",
+  "documentId": "doc-remote-aaba-43",
+  "revisionId": "r1",
+  "performancePlanId": "form",
+  "scoreSha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+  "stateRevision": 1,
+  "authorityParticipantId": "coordinator",
+  "participants": [
+    {
+      "participantId": "coordinator",
+      "kind": "softwareAgent",
+      "assignedTrackIds": [],
+      "supportedFeatures": [
+        "OSTF-Distributed-Session-0.2"
+      ]
+    },
+    {
+      "participantId": "remote-bass",
+      "kind": "physicalRobot",
+      "assignedTrackIds": [
+        "bass"
+      ],
+      "supportedFeatures": [
+        "midi1Notes"
+      ],
+      "capabilities": {
+        "noteScheduling": true
+      }
+    },
+    {
+      "participantId": "remote-piano",
+      "kind": "human",
+      "assignedTrackIds": [
+        "piano"
+      ]
+    }
+  ],
+  "position": {
+    "performancePlanId": "form",
+    "visitId": "head",
+    "sourceTick": 0,
+    "performanceTick": 0,
+    "clockDomainId": "clock-musical-01",
+    "epochUtc": "2026-11-13T12:00:00Z",
+    "uncertaintyMs": 5,
+    "tempoBpm": 120
+  },
+  "committedPhrases": [
+    {
+      "commitEventId": "evt-committed-1",
+      "proposalId": "bass-proposal-1",
+      "targetTrackId": "bass",
+      "effectivePerformanceTick": 3840,
+      "phrase": {
+        "representation": "midi1Notes",
+        "durationTicks": 3840,
+        "notes": [
+          {
+            "startTick": 0,
+            "durationTicks": 720,
+            "pitch": 48,
+            "velocity": 82
+          },
+          {
+            "startTick": 960,
+            "durationTicks": 720,
+            "pitch": 50,
+            "velocity": 75
+          },
+          {
+            "startTick": 1920,
+            "durationTicks": 720,
+            "pitch": 53,
+            "velocity": 83
+          },
+          {
+            "startTick": 2880,
+            "durationTicks": 720,
+            "pitch": 55,
+            "velocity": 88
+          }
+        ]
+      }
+    }
+  ],
+  "sessionStatus": "playing",
+  "commitmentWindow": {
+    "startPerformanceTick": 0,
+    "endPerformanceTick": 7680
+  }
+}

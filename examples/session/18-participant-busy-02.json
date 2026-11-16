@@ -1,0 +1,19 @@
+{
+  "profile": "OSTF-Distributed-Session-0.2",
+  "recordType": "event",
+  "eventId": "evt-busy",
+  "sessionId": "demo-remote-jam",
+  "documentId": "doc-remote-aaba-43",
+  "revisionId": "r1",
+  "performancePlanId": "form",
+  "scoreSha256": "e954232b80b398312473807789508d408cf4ce27dbcf7fd36af719b86415bce0",
+  "baseStateRevision": 1,
+  "issuerParticipantId": "remote-bass",
+  "kind": "participantStatus",
+  "effectivePerformanceTick": 122880,
+  "payload": {
+    "participantId": "remote-bass",
+    "availability": "busy",
+    "message": "Illustrative busy status; not a real network report."
+  }
+}

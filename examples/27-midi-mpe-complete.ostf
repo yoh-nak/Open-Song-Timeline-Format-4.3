@@ -1,0 +1,261 @@
+{
+  "format": "OSTF",
+  "version": "4.3.0",
+  "ppq": 960,
+  "song": {
+    "title": "Complete MIDI/MPE field catalogue"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "A",
+        "start": 0,
+        "duration": 30720
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lower",
+      "name": "MPE lower",
+      "trackType": "melodic",
+      "role": "lead",
+      "midi": {
+        "busId": "bus-mpe-lower",
+        "mode": "mpe",
+        "mpe": {
+          "zone": "lower",
+          "memberChannelCount": 4
+        }
+      },
+      "clips": [
+        {
+          "id": "clip-lower",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-lower",
+              "start": 0,
+              "duration": 1920,
+              "pitch": 60,
+              "velocity": 96,
+              "releaseVelocity": 48,
+              "channel": 2,
+              "enabled": true,
+              "probability": 1,
+              "velocityDeviation": 0,
+              "pitchRole": "musical"
+            },
+            {
+              "id": "trigger-lower",
+              "start": 2400,
+              "duration": 120,
+              "pitch": 12,
+              "velocity": 64,
+              "channel": 2,
+              "pitchRole": "fixedTrigger"
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "midi-lower-0",
+              "start": 120,
+              "order": 0,
+              "channel": 2,
+              "type": "controlChange",
+              "controller": 74,
+              "value": 80,
+              "targetNoteId": "note-lower"
+            },
+            {
+              "id": "midi-lower-1",
+              "start": 240,
+              "order": 1,
+              "channel": 2,
+              "type": "programChange",
+              "program": 0
+            },
+            {
+              "id": "midi-lower-2",
+              "start": 360,
+              "order": 2,
+              "channel": 2,
+              "type": "pitchBend",
+              "value14": 8192,
+              "targetNoteId": "note-lower"
+            },
+            {
+              "id": "midi-lower-3",
+              "start": 480,
+              "order": 3,
+              "channel": 2,
+              "type": "channelPressure",
+              "value": 64,
+              "targetNoteId": "note-lower"
+            },
+            {
+              "id": "midi-lower-4",
+              "start": 600,
+              "order": 4,
+              "channel": 2,
+              "type": "polyPressure",
+              "pitch": 60,
+              "value": 72,
+              "targetNoteId": "note-lower"
+            },
+            {
+              "id": "midi-lower-5",
+              "start": 720,
+              "order": 5,
+              "channel": 2,
+              "type": "channelMode",
+              "controller": 123,
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "track-upper",
+      "name": "MPE upper",
+      "trackType": "melodic",
+      "role": "lead",
+      "midi": {
+        "busId": "bus-mpe-upper",
+        "mode": "mpe",
+        "mpe": {
+          "zone": "upper",
+          "memberChannelCount": 4
+        }
+      },
+      "clips": [
+        {
+          "id": "clip-upper",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-upper",
+              "start": 0,
+              "duration": 1920,
+              "pitch": 60,
+              "velocity": 96,
+              "releaseVelocity": 48,
+              "channel": 15,
+              "enabled": true,
+              "probability": 1,
+              "velocityDeviation": 0,
+              "pitchRole": "musical"
+            },
+            {
+              "id": "trigger-upper",
+              "start": 2400,
+              "duration": 120,
+              "pitch": 12,
+              "velocity": 64,
+              "channel": 15,
+              "pitchRole": "fixedTrigger"
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "midi-upper-0",
+              "start": 120,
+              "order": 0,
+              "channel": 15,
+              "type": "controlChange",
+              "controller": 74,
+              "value": 80,
+              "targetNoteId": "note-upper"
+            },
+            {
+              "id": "midi-upper-1",
+              "start": 240,
+              "order": 1,
+              "channel": 15,
+              "type": "programChange",
+              "program": 0
+            },
+            {
+              "id": "midi-upper-2",
+              "start": 360,
+              "order": 2,
+              "channel": 15,
+              "type": "pitchBend",
+              "value14": 8192,
+              "targetNoteId": "note-upper"
+            },
+            {
+              "id": "midi-upper-3",
+              "start": 480,
+              "order": 3,
+              "channel": 15,
+              "type": "channelPressure",
+              "value": 64,
+              "targetNoteId": "note-upper"
+            },
+            {
+              "id": "midi-upper-4",
+              "start": 600,
+              "order": 4,
+              "channel": 15,
+              "type": "polyPressure",
+              "pitch": 60,
+              "value": 72,
+              "targetNoteId": "note-upper"
+            },
+            {
+              "id": "midi-upper-5",
+              "start": 720,
+              "order": 5,
+              "channel": 15,
+              "type": "channelMode",
+              "controller": 123,
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus-mpe-lower",
+        "name": "lower zone logical bus"
+      },
+      {
+        "id": "bus-mpe-upper",
+        "name": "upper zone logical bus"
+      }
+    ]
+  }
+}
